@@ -110,12 +110,10 @@ ScrollReveal().reveal(".hero-content .dynamic-text", {
   delay: 400,
   origin: "right",
 });
-
 ScrollReveal().reveal(".hero-content p", {
   delay: 500,
   origin: "bottom",
 });
-
 ScrollReveal().reveal(".social-icons a i", {
   delay: 600,
   origin: "right",
@@ -339,9 +337,9 @@ function setActiveLanguage(lang) {
   });
 }
 
-// Gérer le changement de langue lorsqu'une image est cliquée
+// Gérer le changement de langue lorsqu'une image est cliqué
 document.getElementById("languageSelect").addEventListener("click", (e) => {
-  const target = e.target.closest("img"); // Vérifier si l'image est cliquée
+  const target = e.target.closest("img"); // Vérifier si l'image est cliqué
   if (target) {
     const selectedLanguage = target.parentElement.getAttribute("data-lang"); // Obtenir la langue
     i18next.changeLanguage(selectedLanguage, (err) => {

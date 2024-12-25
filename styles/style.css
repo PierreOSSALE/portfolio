@@ -256,7 +256,6 @@ input[type="submit"]:hover,
     min-height: 100vh !important;
     padding: 25px 15px !important;
   }
-
   .hero-section {
     scroll-margin-top: 70px !important;
     min-height: 100vh !important;
@@ -308,7 +307,6 @@ input[type="submit"]:hover,
   .form-textarea textarea {
     width: 100%;
   }
-
   #about {
     flex-direction: column !important;
   }
@@ -345,7 +343,6 @@ input[type="submit"]:hover,
     justify-content: center;
     align-items: center;
   }
-
   .hero-section .hero-img .img-container,
   #about .about-img .img-container {
     width: 250px;
@@ -392,7 +389,6 @@ input[type="submit"]:hover,
   .hero-section {
     margin-bottom: 0px !important;
   }
-
   #about {
     margin-bottom: -100px !important;
   }
@@ -429,7 +425,6 @@ input[type="submit"]:hover,
     margin: 0px 25px -50px 25px !important;
     height: 550px;
   }
-
   #contact h1 {
     margin-bottom: -20px !important;
   }
