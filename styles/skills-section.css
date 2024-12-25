@@ -1,0 +1,144 @@
+@import url(./style.css);
+
+#skills h1 {
+  margin: 15px 0 70px 0;
+  text-align: center;
+}
+#skills .skills-section {
+  gap: 50px;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.skill-item {
+  text-align: center;
+  transition: 0.3s;
+  border-radius: 50px;
+  background: var(--cyan);
+  padding: 5px 0;
+  box-shadow: 0px 0px 5px 0.5px var(--Black);
+  transition: 0.5s;
+}
+.skill-item svg,
+.skill-item h5 {
+  transition: 0.5s;
+}
+.skill-item h5 {
+  font-size: 1.3rem;
+}
+
+.skill-item:hover svg,
+.skill-item:hover h5 {
+  transition: 0.5s;
+  transform: scale(0.9);
+}
+.skill-content {
+  height: 100%;
+  border-radius: 50px;
+  background: var(--bg);
+  padding: 20px;
+  margin: 0 -2px;
+  text-align: center;
+}
+.progress-line {
+  background-color: #e0e0e0;
+  height: 8.5px;
+  width: 70%;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 10px auto;
+  position: relative;
+}
+
+.progress-line span {
+  display: block;
+  height: 100%;
+  width: 0;
+  border-radius: 5px;
+  transition: width 1s ease;
+  position: relative;
+}
+
+.progress-line span::after {
+  content: attr(data-percent);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--Black);
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.html span {
+  width: 90%; /* Très utilisé et bien maîtrisé */
+  background: #4caf50;
+}
+.html span::after {
+  content: "90%";
+}
+
+.Css span {
+  width: 80%; /* Solide compréhension des bases */
+  background: #2196f3;
+}
+.Css span::after {
+  content: "80%";
+}
+
+.JavaScript span {
+  width: 75%; /* Connaissance en cours de développement */
+  background: #ff9800;
+}
+.JavaScript span::after {
+  content: "75%";
+}
+
+.php span {
+  width: 60%; /* Bonne connaissance mais avec des lacunes possibles */
+  background: #9c27b0;
+}
+.php span::after {
+  content: "60%";
+}
+
+.java span {
+  width: 50%; /* Compétence secondaire pour un développeur web */
+  background: #ff5722;
+}
+.java span::after {
+  content: "50%";
+}
+
+.react span {
+  width: 65%; /* Compétence en apprentissage, niveau junior */
+  background: #3f51b5;
+}
+.react span::after {
+  content: "65%";
+}
+
+.SpringBoot span {
+  width: 55%; /* Connaissance basique, niveau junior */
+  background: #8bc34a;
+}
+.SpringBoot span::after {
+  content: "55%";
+}
+
+.Figma span {
+  width: 70%; /* Bon niveau en design et prototypage */
+  background: #ffc107;
+}
+.Figma span::after {
+  content: "70%";
+}
+
+.Sass span {
+  width: 75%; /* Bonne pratique des outils modernes de CSS */
+  background: #e73879;
+}
+.Sass span::after {
+  content: "75%";
+}

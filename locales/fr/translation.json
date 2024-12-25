@@ -1,0 +1,200 @@
+{
+  "logo": "SIMON OSSALE",
+  "home": "Accueil",
+  "about": "A Propos",
+  "services": "Services",
+  "skills": "Competences",
+  "portfolio": "Portfolio",
+  "contact": "Contact",
+
+  "Welcome": "Bienvenue",
+  "name": "SIMON OSSALE",
+  "webDeveloper": "Développeur Web",
+  "intro": "Bienvenue sur mon portfolio ! Je suis un développeur web freelance spécialisé dans la création de solutions numériques performantes et innovantes. Passionné par les technologies modernes, j'excelle dans le développement front-end et back-end, avec un accent sur la création d'interfaces utilisateur élégantes et intuitives.",
+  "viewCV": "Voir mon CV",
+
+  "About": "À propos de",
+  "Me": "Moi",
+  "FullStackDeveloper": "Développeur FullStack",
+  "introAbout": "Je suis Simon Ossale, un développeur web full-stack passionné, spécialisé dans la création de solutions numériques modernes et performantes. En tant que freelance, j'accompagne les entreprises, les startups et les entrepreneurs dans leurs projets en leur offrant des services personnalisés adaptés à leurs besoins et objectifs.",
+  "LearnMore": "En savoir plus",
+  "ExpertiseDescription": "Avec une expertise dans les technologies modernes comme React.js et Spring Boot, je conçois et développe des applications robustes et intuitives adaptées aux besoins spécifiques des utilisateurs.",
+  "TechnicalSkills": "Compétences Techniques",
+  "FrontendDevelopment": "Développement Front-end :",
+  "FrontendTechnologies": "React.js, HTML5, CSS3",
+  "BackendDevelopment": "Développement Back-end :",
+  "BackendTechnologies": "Spring Boot, Java, PHP",
+  "Database": "Base de données :",
+  "DatabaseTechnologies": "MySQL, PostgreSQL",
+  "VersionControl": "Outils de gestion de version :",
+  "VersionControlTechnologies": "Git, GitHub",
+  "Experience": "Expérience",
+  "Freelance": "2023 - Présent :",
+  "Internship": "2022 - 2023 :",
+  "ProjectsCompleted": "Projets réalisés",
+  "portfolioLink": "portefeuille",
+
+  "services2": {
+    "title": "Mes Services",
+    "frontend": {
+      "title": "Développeur Frontend",
+      "description": "Conception et développement d'interfaces utilisateurs modernes et réactives en utilisant des technologies telles que HTML5, CSS3, Sass, JavaScript, React.js et Bootstrap.",
+      "learn_more": "En savoir plus",
+      "modal_description": "Je suis passionné par le développement web, en mettant l'accent sur la création d'interfaces modernes, réactives et intuitives. Mon objectif est de fournir des solutions élégantes et performantes adaptées aux besoins de chaque projet.",
+      "offer_title": "Ce que je propose",
+      "offer": {
+        "1": "Création de sites web réactifs optimisés pour tous les appareils",
+        "2": "Développement d'interfaces utilisateurs avec HTML5, CSS3 et JavaScript",
+        "3": "Intégration de frameworks modernes comme React.js et Bootstrap",
+        "4": "Optimisation de la performance et du SEO pour une meilleure visibilité",
+        "5": "Collaboration étroite avec les équipes backend pour une intégration fluide"
+      }
+    },
+    "backend": {
+      "title": "Développeur Backend",
+      "description": "Création et gestion de systèmes backend robustes en utilisant Java avec Spring Boot, PHP, Node.js et des bases de données pour des performances optimales et une intégration fluide.",
+      "learn_more": "En savoir plus",
+      "modal_description": "Spécialisé dans la conception et la gestion de systèmes backend performants et sécurisés, j'utilise des technologies modernes comme Java avec Spring Boot, PHP, Node.js et des bases de données relationnelles ou NoSQL. Mon objectif est d'assurer une performance optimale et une intégration fluide avec les interfaces frontend.",
+      "offer_title": "Ce que je propose",
+      "offer": {
+        "1": "Conception de systèmes backend robustes et évolutifs",
+        "2": "Développement d'API RESTful pour la communication entre services",
+        "3": "Intégration de bases de données (MySQL, PostgreSQL)",
+        "4": "Optimisation des performances et de la sécurité des applications",
+        "5": "Collaboration avec les équipes frontend pour une synergie complète"
+      }
+    },
+    "ux": {
+      "title": "Designer UI/UX",
+      "description": "Création de designs visuellement attrayants et d'expériences utilisateur avec Figma et d'autres outils pour garantir des interfaces engageantes et intuitives pour vos utilisateurs.",
+      "learn_more": "En savoir plus",
+      "modal_description": "Fort d'une expertise en design UI/UX, je crée des interfaces engageantes, visuellement attrayantes et intuitives qui améliorent l'expérience utilisateur. En utilisant des outils comme Figma, j'assure une transition fluide du design au développement pour toutes les applications.",
+      "offer_title": "Ce que je propose",
+      "offer": {
+        "1": "Création de maquettes, prototypes et kits UI",
+        "2": "Conception d'interfaces centrées sur l'utilisateur avec Figma",
+        "3": "Recherche et analyse UX pour optimiser le comportement des utilisateurs",
+        "4": "Branding et designs UI/UX pour applications et sites web",
+        "5": "Collaboration étroite avec les développeurs pour une intégration fluide"
+      }
+    }
+  },
+
+  "contact2": {
+    "title": "Contactez-",
+    "me": "moi",
+    "details": "Détails de contact",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "messenger": "Messenger",
+    "socialInfo": "Informations sociales"
+  },
+  "form": {
+    "namePlaceholder": "Entrez votre nom",
+    "emailPlaceholder": "Entrez votre email",
+    "subjectPlaceholder": "Entrez votre sujet",
+    "messagePlaceholder": "Entrez votre message",
+    "submitButton": "Soumettre",
+    "successMessage": "Votre message a été envoyé avec succès!"
+  },
+
+  "portfolio2": {
+    "title": "Derniers",
+    "titleHighlight": "Projets",
+    "project1": {
+      "title": "Portfolio",
+      "description": "Un site web statique et moderne construit avec HTML5, CSS3 et JavaScript, offrant une expérience utilisateur fluide et intuitive.",
+      "linkLabel": "Voir plus de détails",
+      "modalTitle": "Portfolio",
+      "modalDescription": "Découvrez une vitrine de projets créatifs développés avec passion et précision.",
+      "feature1": "Navigation intuitive entre les sections du site.",
+      "feature2": "Design réactif adapté à tous les appareils, y compris les mobiles et tablettes.",
+      "feature3": "Galerie d'images optimisée pour un chargement rapide et des performances élevées.",
+      "role": "En tant que développeur principal, j'ai conçu l'interface utilisateur et intégré des fonctionnalités interactives pour améliorer l'expérience utilisateur.",
+      "onlineLink": "Voir le projet en ligne",
+      "demoLink": "Voir la démonstration sur ma chaîne YouTube"
+    },
+    "project2": {
+      "title": "Site de Randonnée",
+      "description": "Un site web statique élégant créé avec HTML5, CSS3 et Sass, parfait pour les amateurs de randonnée et de nature.",
+      "modalTitle": "Site de Randonnée Interactif",
+      "modalDescription": "Un site web statique mettant en avant les meilleurs sentiers de randonnée, conçu pour les passionnés d'activités de plein air.",
+      "feature1": "Navigation intuitive entre les itinéraires de randonnée.",
+      "feature2": "Design responsive optimisé pour les appareils mobiles et les tablettes.",
+      "feature3": "Galerie d'images optimisée pour une meilleure performance.",
+      "role": "En tant que développeur principal, j'ai conçu l'interface utilisateur et intégré des fonctionnalités interactives pour offrir une expérience utilisateur riche."
+    },
+    "project3": {
+      "title": "Générateur de Bulles",
+      "description": "Un site web statique innovant construit avec HTML5, CSS3 et JavaScript, offrant une expérience interactive amusante et engageante.",
+      "modalTitle": "Générateur de Bulles",
+      "modalDescription": "Un site web statique permettant aux utilisateurs de générer des bulles colorées et interactives, conçu pour tous les âges.",
+      "feature1": "Interface intuitive pour générer et manipuler des bulles.",
+      "feature2": "Design responsive adapté à tous les appareils, y compris mobile et tablette.",
+      "feature3": "Galerie d'images optimisée pour des performances fluides.",
+      "role": "En tant que développeur principal, j'ai conçu l'interface utilisateur et intégré des fonctionnalités interactives pour offrir une expérience agréable et captivante."
+    },
+    "project4": {
+      "title": "Solutions Méta",
+      "description": "Un site web statique construit avec HTML5, CSS3 et Sass, offrant une interface professionnelle et moderne pour une agence innovante.",
+      "modalTitle": "Solutions Méta",
+      "modalDescription": "Un site pour une agence offrant des solutions dans des domaines tels que la création d'entreprises et l'orientation vers le métaverse.",
+      "feature1": "Interface professionnelle conçue pour les agences modernes.",
+      "feature2": "Design responsive optimisé pour tous les appareils.",
+      "role": "En tant que développeur principal, j'ai conçu l'interface utilisateur et veillé à ce que le site ait un design propre, moderne et fonctionnel."
+    },
+    "project5": {
+      "title": "Site du Monde Virtuel",
+      "description": "Un site statique innovant construit avec HTML5, CSS3, BootStrap et JavaScript, offrant une expérience immersive et interactive.",
+      "modalTitle": "Monde Virtuel",
+      "modalDescription": "Un site web statique offrant une plongée dans des itinéraires virtuels, conçu pour les amateurs de découverte et d'aventure numérique.",
+      "feature1": "Navigation intuitive à travers des itinéraires virtuels.",
+      "feature2": "Design responsive optimisé pour les appareils mobiles et tablettes.",
+      "feature3": "Galerie d'images optimisée pour des performances accrues.",
+      "role": "En tant que développeur principal, j'ai conçu l'interface utilisateur et intégré diverses fonctionnalités interactives pour offrir une expérience immersive et engageante."
+    },
+    "project6": {
+      "title": "Formulaire",
+      "description": "Un site statique bien conçu avec HTML5 et CSS3, offrant une interface de formulaire simple et efficace.",
+      "modalTitle": "Formulaire",
+      "modalDescription": "Un site web statique conçu pour présenter et collecter des informations via des formulaires bien élaborés et intuitifs.",
+      "feature1": "Interface de navigation intuitive.",
+      "feature2": "Design responsive adapté à tous les appareils, y compris les mobiles.",
+      "feature3": "Formulaire optimisé pour des performances rapides.",
+      "role": "En tant que développeur principal, j'ai conçu l'interface utilisateur et intégré diverses fonctionnalités pour rendre le formulaire convivial et agréable à utiliser."
+    },
+    "project7": {
+      "title": "CV en ligne",
+      "description": "Un site statique élégant construit avec HTML5, CSS3, offrant une interface CV professionnelle et moderne.",
+      "modalTitle": "CV en ligne",
+      "modalDescription": "Un site web statique offrant une présentation claire et professionnelle de votre CV, conçu pour les chercheurs d'emploi et les professionnels.",
+      "feature1": "Navigation intuitive entre les sections du CV.",
+      "feature2": "Design responsive adapté à tous les appareils, y compris les mobiles.",
+      "feature3": "Performance optimisée pour une expérience utilisateur fluide et rapide.",
+      "role": "En tant que développeur principal, j'ai conçu l'interface utilisateur et intégré diverses fonctionnalités pour rendre le CV en ligne simple et attrayant."
+    },
+    "project8": {
+      "title": "Portfolio",
+      "description": "Un site web statique et moderne construit avec HTML5, CSS3 et JavaScript, offrant une expérience utilisateur fluide et intuitive.",
+      "linkLabel": "Voir plus de détails",
+      "modalTitle": "Portfolio",
+      "modalDescription": "Découvrez une vitrine de projets créatifs développés avec passion et précision.",
+      "feature1": "Navigation intuitive entre les sections du site.",
+      "feature2": "Design réactif adapté à tous les appareils, y compris les mobiles et tablettes.",
+      "feature3": "Galerie d'images optimisée pour un chargement rapide et des performances élevées.",
+      "role": "En tant que développeur principal, j'ai conçu l'interface utilisateur et intégré des fonctionnalités interactives pour améliorer l'expérience utilisateur.",
+      "onlineLink": "Voir le projet en ligne",
+      "demoLink": "Voir la démonstration sur ma chaîne YouTube"
+    },
+    "technologiesUsed": "Technologies utilisées",
+    "keyFeatures": "Principales caractéristiques",
+    "role": "Rôle dans le projet",
+    "projectLinks": "Liens du projet",
+    "demonstrations": "Démonstrations",
+    "onlineLink": "Voir le projet en ligne",
+    "demoLink": "Voir la démo sur ma chaîne YouTube",
+    "modal": {
+      "close": "Fermer"
+    }
+  }
+}

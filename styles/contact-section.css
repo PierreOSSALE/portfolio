@@ -1,0 +1,136 @@
+@import url(./style.css);
+#contact {
+  min-height: 0px !important;
+  margin-bottom: 0px !important;
+  overflow-x: hidden;
+}
+
+#contact h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  min-height: 0 !important;
+}
+#contact h1 span:nth-child(2) {
+  color: var(--cyan);
+}
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  overflow-x: hidden;
+}
+
+/*----------------------------------------------------------------------------------------------------------------*/
+
+#contact-form,
+.contact-info {
+  width: 550px;
+  max-width: 650px;
+  height: 500px;
+  background: var(--BlueT);
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 60px;
+}
+#contact-form .form-input,
+.form-textarea {
+  margin: 15px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact-form .form-input input[type="text"],
+#contact-form .form-input input[type="email"],
+.form-textarea textarea {
+  width: 100%;
+  font-size: 0.9rem;
+  padding: 10px;
+  border: none;
+  resize: none;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  background: var(--OffWhite);
+  font-family: var(--font-secondary);
+}
+
+#contact-form .form-input input[type="text"]:focus,
+#contact-form .form-input input[type="email"]:focus,
+.form-textarea textarea:focus {
+  outline: none;
+  background: var(--Lightgrey);
+}
+
+#contact-form .form-input input[type="submit"] {
+  width: 100%;
+}
+
+/*----------------------------------------------------------------------------------------------------------------*/
+
+.contact-info h4 {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.contact-info .contact-box {
+  display: flex;
+  gap: 20px;
+  margin: 15px 20px 40px 20px;
+}
+
+.contact-info .contact-box .icon {
+  background: var(--BlueT);
+  padding: 25px 20px !important;
+  border: none;
+  border-radius: 2px;
+  height: 0 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-info .contact-box i {
+  margin-left: 2px;
+  transition: 0.4s;
+  font-size: 1.2rem;
+  color: var(--cyan);
+}
+.contact-info .contact-box h6 {
+  font-size: 0.8rem;
+  margin: 0 !important;
+}
+.contact-info .contact-box p {
+  font-size: 1rem;
+  margin: 0 !important;
+  color: var(--OffWhite);
+}
+.contact-info .contact-box a {
+  font-size: 0.9rem;
+  margin: 0 !important;
+  color: var(--OffWhite);
+}
+.contact-info .contact-box a i {
+  font-size: 0.8rem;
+  margin: 0 !important;
+}
+.contact-info .contact-box a:hover,
+.contact-info .contact-box a:hover i {
+  transform: translate(1px, -2px) scale(1.05);
+  color: var(--cyan);
+}
+
+.contact-info .social-icons {
+  margin: 50px 20px;
+}
+.social-icons h4 {
+  text-align: left;
+}
+
+/* Messages de succès */
+.success-message {
+  margin-top: 20px;
+  color: green;
+  font-weight: bold;
+  text-align: center;
+  display: none;
+}
