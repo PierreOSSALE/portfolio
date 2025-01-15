@@ -26,7 +26,7 @@
 .contact-info {
   width: 550px;
   max-width: 650px;
-  height: 500px;
+  height: auto;
   background: var(--BlueT);
   padding: 25px;
   border-radius: 10px;
@@ -35,13 +35,22 @@
 #contact-form .form-input,
 .form-textarea {
   margin: 15px 10px;
+  gap: 15px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+#contact-form .form-input span,
+.form-textarea span {
+  text-align: left;
+  width: 100%;
+}
+.error {
+  color: red;
+}
 
 #contact-form .form-input input[type="text"],
-#contact-form .form-input input[type="email"],
 .form-textarea textarea {
   width: 100%;
   font-size: 0.9rem;
@@ -55,7 +64,6 @@
 }
 
 #contact-form .form-input input[type="text"]:focus,
-#contact-form .form-input input[type="email"]:focus,
 .form-textarea textarea:focus {
   outline: none;
   background: var(--Lightgrey);
@@ -129,7 +137,6 @@
 /* Messages de succès */
 .success-message {
   margin-top: 20px;
-  color: green;
   font-weight: bold;
   text-align: center;
   display: none;

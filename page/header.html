@@ -1,16 +1,53 @@
 <header>
   <nav id="navbar">
+    <!-- Mobile Navigation Toggle -->
     <div class="menu-toggle" id="mobile-menu">
       <i class="fas fa-bars"></i>
     </div>
-    <div class="logo">SIMON OSSALE</div>
+
+    <!-- Site Logo -->
+    <div class="logo"><a href="/PORTFOLIO/index.html">SIMON OSSALE</a></div>
+
+    <!-- Navigation Links -->
     <ul class="nav-list">
-      <li><a href="/PORTFOLIO/index.html">Home</a></li>
-      <li><a href="/PORTFOLIO/page/about/about.html">About</a></li>
-      <li><a href="/PORTFOLIO/page/services/service.html">Services</a></li>
-      <li><a href="/PORTFOLIO/page/skills/skill.html">Skills</a></li>
-      <li><a href="/PORTFOLIO/page/portfolio/portfolio.html">Portfolio</a></li>
-      <li><a href="/PORTFOLIO/page/contact/contact.html">Contact</a></li>
+      <li><a href="/PORTFOLIO/index.html" data-i18n="home">Home</a></li>
+      <li><a href="/PORTFOLIO/index.html#about" data-i18n="about">About</a></li>
+      <li>
+        <a href="/PORTFOLIO/index.html#services" data-i18n="services"
+          >Services</a
+        >
+      </li>
+      <li>
+        <a href="/PORTFOLIO/index.html#skills" data-i18n="skills">Skills</a>
+      </li>
+      <li>
+        <a href="/PORTFOLIO/index.html#portfolio" data-i18n="portfolio"
+          >Portfolio</a
+        >
+      </li>
+      <li>
+        <a href="/PORTFOLIO/index.html#contact" data-i18n="contact">Contact</a>
+      </li>
+      <li>
+        <!-- Language Selector -->
+        <span id="languageSelect">
+          <button
+            data-lang="en"
+            class="language-option"
+            aria-label="Switch to English"
+          >
+            <img src="/PORTFOLIO/assets/Images/royaume-uni.png" alt="English" />
+          </button>
+          |
+          <button
+            data-lang="fr"
+            class="language-option"
+            aria-label="Passer au français"
+          >
+            <img src="/PORTFOLIO/assets/Images/france.png" alt="Français" />
+          </button>
+        </span>
+      </li>
     </ul>
   </nav>
 </header>

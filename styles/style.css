@@ -170,6 +170,9 @@ input[type="submit"]:hover,
   transform: scale(0.9); /* Slightly shrink the button on hover */
 }
 
+.no-scroll {
+  overflow: hidden;
+}
 /* Responsive Typography and layout adjustments */
 
 /* Media query for screen widths less than 1060px */

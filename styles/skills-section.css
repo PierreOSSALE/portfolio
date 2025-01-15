@@ -72,73 +72,89 @@
 }
 
 .html span {
-  width: 90%; /* Très utilisé et bien maîtrisé */
+  width: 95%; /* Parfaite maîtrise */
   background: #4caf50;
 }
 .html span::after {
-  content: "90%";
+  content: "95%";
 }
 
 .Css span {
-  width: 80%; /* Solide compréhension des bases */
+  width: 90%; /* Très solide compréhension et pratique */
   background: #2196f3;
 }
 .Css span::after {
-  content: "80%";
+  content: "90%";
 }
 
 .JavaScript span {
-  width: 75%; /* Connaissance en cours de développement */
+  width: 90%; /* Expertise dans le développement front-end et back-end */
   background: #ff9800;
 }
 .JavaScript span::after {
-  content: "75%";
+  content: "90%";
 }
 
 .php span {
-  width: 60%; /* Bonne connaissance mais avec des lacunes possibles */
+  width: 85%; /* Bonne maîtrise pour le développement back-end */
   background: #9c27b0;
 }
 .php span::after {
-  content: "60%";
+  content: "85%";
 }
 
 .java span {
-  width: 50%; /* Compétence secondaire pour un développeur web */
+  width: 80%; /* Très solide pour les projets back-end, notamment avec Spring Boot */
   background: #ff5722;
 }
 .java span::after {
-  content: "50%";
+  content: "80%";
 }
 
 .react span {
-  width: 65%; /* Compétence en apprentissage, niveau junior */
+  width: 85%; /* Très bonne maîtrise pour des applications front-end modernes */
   background: #3f51b5;
 }
 .react span::after {
-  content: "65%";
+  content: "85%";
 }
 
 .SpringBoot span {
-  width: 55%; /* Connaissance basique, niveau junior */
+  width: 80%; /* Expertise pour le développement d'applications back-end */
   background: #8bc34a;
 }
 .SpringBoot span::after {
-  content: "55%";
+  content: "80%";
 }
 
 .Figma span {
-  width: 70%; /* Bon niveau en design et prototypage */
+  width: 75%; /* Bonne pratique pour le design et prototypage */
   background: #ffc107;
 }
 .Figma span::after {
-  content: "70%";
+  content: "75%";
 }
 
 .Sass span {
-  width: 75%; /* Bonne pratique des outils modernes de CSS */
+  width: 85%; /* Expertise dans les outils modernes de stylisation CSS */
   background: #e73879;
 }
 .Sass span::after {
-  content: "75%";
+  content: "85%";
+}
+
+.SQL span {
+  width: 90%; /* Très bonne maîtrise des bases de données relationnelles */
+  background: #795548;
+}
+.SQL span::after {
+  content: "90%";
+}
+
+.NodeJS span {
+  width: 80%; /* Bonne expertise pour développer des API back-end performantes */
+  background: #4caf50;
+}
+.NodeJS span::after {
+  content: "80%";
 }

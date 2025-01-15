@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "service_title": "Frontend Web Developer",
+    "description": "Designing and developing modern, responsive user interfaces using technologies such as HTML5, CSS3, Sass, JavaScript,React.js, and Bootstrap.",
+    "btn_see_more": "Learn More",
+    "modal_description": "I am passionate about web development, focusing on creating modern, responsive, and intuitive user interfaces. My goal is to provide elegant and high-performance solutions tailored to each project's needs.",
+    "offer_title": "What I Offer",
+    "offer1": "Creation of responsive, device-optimized websites",
+    "offer2": "Development of user interfaces with HTML5, CSS3, and JavaScript",
+    "offer3": "Integration of modern frameworks like React.js and Bootstrap",
+    "offer4": "Performance and SEO optimization for better visibility",
+    "offer5": "Close collaboration with backend teams for smooth integration"
+  },
+  {
+    "id": 2,
+    "service_title": " Backend Web Developer",
+    "description": "Building and managing robust backend systems using Java with Spring Boot, PHP, Node.js, and databases for optimal performance and smooth integration.",
+    "btn_see_more": "Learn More",
+    "modal_description": " Specializing in designing and managing high-performance, secure backend systems, I use modern technologies like Java with Spring Boot, PHP, Node.js, and relational or NoSQL databases. My goal is to ensure optimal performance and seamless integration with frontend interfaces.",
+    "offer_title": "What I Offer",
+    "offer1": "Design of robust, scalable backend systems",
+    "offer2": "Development of RESTful APIs for service communication",
+    "offer3": "Integration of databases (MySQL, PostgreSQL)",
+    "offer4": "Optimization of application performance and security",
+    "offer5": "Collaboration with frontend teams for full synergy"
+  },
+  {
+    "id": 3,
+    "service_title": "UI/UX Designer",
+    "description": "Creating visually attractive designs and user experiences using Figma and other tools to ensure engaging and intuitive interfaces for your users.",
+    "btn_see_more": "Learn More",
+    "modal_description": "With expertise in UI/UX design, I craft engaging, visually appealing, and intuitive interfaces that enhance the user experience. Using tools like Figma, I ensure a seamless design-to-development process for all applications.",
+    "offer_title": "What I Offer",
+    "offer1": "Creation of wireframe, prototypes, and UI kits",
+    "offer2": "Design of user-centric interfaces with Figma",
+    "offer3": "UX research and analysis for user behavior optimization",
+    "offer4": "Branding and UI/UX designs for apps and websites",
+    "offer5": "Close collaboration with developers for seamless integration"
+  }
+]

@@ -21,16 +21,22 @@
   "ExpertiseDescription": "With expertise in modern technologies like React.js and Spring Boot, I design and develop robust, intuitive applications tailored to users' specific needs.",
   "TechnicalSkills": "Technical Skills",
   "FrontendDevelopment": "Front-end Development:",
-  "FrontendTechnologies": "React.js, HTML5, CSS3",
+  "FrontendTechnologies": "React.js, HTML5, CSS3, JavaScript",
   "BackendDevelopment": "Back-end Development:",
   "BackendTechnologies": "Spring Boot, Java, PHP",
   "Database": "Database:",
-  "DatabaseTechnologies": "MySQL, PostgreSQL",
+  "DatabaseTechnologies": "MySQL, PostgreSQL, SQL",
   "VersionControl": "Version Control Tools:",
   "VersionControlTechnologies": "Git, GitHub",
-  "Experience": "Experience",
-  "Freelance": "2023 - Present:",
-  "Internship": "2022 - 2023:",
+  "experience": {
+    "title": "Experience",
+    "freelance": "May 2024 - Present:",
+    "freelance_desc": "Full-Stack Developer Freelance.",
+    "job1": "December 2023 - May 2024:",
+    "job1_desc": "Full-Stack Developer at Tunisia Technologies.",
+    "job2": "November 2022 - November 2023:",
+    "job2_desc": "Front-End Developer at Carthage Development Solutions."
+  },
   "ProjectsCompleted": "Projects Completed",
   "portfolioLink": "portfolio",
 
@@ -52,9 +58,9 @@
     },
     "backend": {
       "title": "Backend Web Developer",
-      "description": "Building and managing robust backend systems using Java with Spring Boot, PHP, Node.js, and databases for optimal performance and smooth integration.",
+      "description": "Building and managing robust backend systems using Java with Spring Boot, PHP, and databases for optimal performance and smooth integration.",
       "learn_more": "Learn More",
-      "modal_description": "Specializing in designing and managing high-performance, secure backend systems, I use modern technologies like Java with Spring Boot, PHP, Node.js, and relational or NoSQL databases. My goal is to ensure optimal performance and seamless integration with frontend interfaces.",
+      "modal_description": "Specializing in designing and managing high-performance, secure backend systems, I use modern technologies like Java with Spring Boot, PHP, and relational. My goal is to ensure optimal performance and seamless integration with frontend interfaces.",
       "offer_title": "What I Offer",
       "offer": {
         "1": "Design of robust, scalable backend systems",
@@ -66,15 +72,15 @@
     },
     "ux": {
       "title": "UI/UX Designer",
-      "description": "Creating visually attractive designs and user experiences using Figma and other tools to ensure engaging and intuitive interfaces for your users.",
-      "learn_more": "Learn More",
-      "modal_description": "With expertise in UI/UX design, I craft engaging, visually appealing, and intuitive interfaces that enhance the user experience. Using tools like Figma, I ensure a seamless design-to-development process for all applications.",
+      "description": "Creating visually appealing designs and user experiences with Figma to ensure engaging and intuitive interfaces for your users.",
+      "learn_more": "Learn more",
+      "modal_description": "With expertise in UI/UX design, I create engaging, visually appealing, and intuitive interfaces that enhance user experience. Using tools like Figma, I ensure a seamless transition from design to development for web applications and websites.",
       "offer_title": "What I Offer",
       "offer": {
-        "1": "Creation of wireframe, prototypes, and UI kits",
-        "2": "Design of user-centric interfaces with Figma",
-        "3": "UX research and analysis for user behavior optimization",
-        "4": "Branding and UI/UX designs for apps and websites",
+        "1": "Creation of mockups, prototypes, and UI kits",
+        "2": "User-centered interface design with Figma",
+        "3": "UX research and analysis to optimize user behavior",
+        "4": "Branding and UI/UX designs for applications and websites",
         "5": "Close collaboration with developers for seamless integration"
       }
     }
@@ -103,96 +109,49 @@
     "titleHighlight": "Projects",
     "project1": {
       "title": "Portfolio",
-      "description": "A static, modern website built with HTML5, CSS3, and JavaScript, offering a seamless and intuitive user experience.",
+      "description": "A modern and interactive website designed to showcase your projects, skills, and services, while allowing visitors to easily contact you.",
       "linkLabel": "View more details",
       "modalTitle": "Portfolio",
       "modalDescription": "Explore a showcase of creative projects developed with passion and precision.",
-      "feature1": "Intuitive navigation between site sections.",
-      "feature2": "Responsive design suitable for all devices, including mobile and tablets.",
-      "feature3": "Optimized image gallery for fast loading and high performance.",
-      "role": "As the lead developer, I designed the user interface and integrated interactive features to enhance the user experience."
+      "feature": "Key Features",
+      "featureOption": [
+        "Intuitive navigation between site sections.",
+        "Responsive design suitable for all devices.",
+        "Real-time multilingual internationalization."
+      ],
+      "role": "As the lead developer, I designed the user interface, integrated external libraries, and implemented a functional contact form.",
+      "technologies": ["HTML5", "CSS3", "JavaScript"],
+      "librariesAndCDN": [
+        "Font Awesome CDN",
+        "ScrollReveal.js CDN",
+        "Typed.js CDN",
+        "i18next and i18next-http-backend CDN"
+      ],
+      "modernAnimations": [
+        "Scroll animations with ScrollReveal.js",
+        "Animated text effect with Typed.js"
+      ],
+      "projectLinks": "View the project online",
+      "demoLinks": "View the demo on my YouTube channel"
     },
     "project2": {
-      "title": "Hiking Site",
-      "description": "An elegant static website built with HTML5, CSS3, and Sass, perfect for hiking and nature enthusiasts.",
-      "modalTitle": "Interactive Hiking Site",
-      "modalDescription": "A static website showcasing the best hiking trails, designed for outdoor activity enthusiasts.",
-      "feature1": "Intuitive navigation between hiking routes.",
-      "feature2": "Responsive design optimized for mobile devices and tablets.",
-      "feature3": "Optimized image gallery for enhanced performance.",
-      "role": "As the lead developer, I designed the user interface and integrated interactive features to provide a rich user experience."
-    },
-    "project3": {
-      "title": "Bubble Generator",
-      "description": "An innovative static website built with HTML5, CSS3, and JavaScript, offering a fun and engaging interactive experience.",
-      "modalTitle": "Bubble Generator",
-      "modalDescription": "A static website allowing users to generate colorful and interactive bubbles, designed for all ages.",
-      "feature1": "Intuitive interface for generating and manipulating bubbles.",
-      "feature2": "Responsive design suitable for all devices, including mobile and tablet.",
-      "feature3": "Optimized image gallery for smooth performance.",
-      "role": "As the lead developer, I designed the user interface and integrated interactive features to provide an enjoyable and captivating experience."
-    },
-    "project4": {
-      "title": "Meta Solutions",
-      "description": "A static website built with HTML5, CSS3, and Sass, offering a professional and modern interface for an innovative agency.",
-      "modalTitle": "Meta Solutions",
-      "modalDescription": "A site for an agency providing solutions in areas such as business creation and metaverse orientation.",
-      "feature1": "Professional interface designed for modern agencies.",
-      "feature2": "Responsive design optimized for all devices.",
-      "role": "As the lead developer, I designed the user interface and ensured that the website had a clean, modern, and functional design."
-    },
-    "project5": {
-      "title": "Virtual World",
-      "description": "An innovative static site built with HTML5, CSS3, BootStrap, and JavaScript, offering an immersive and interactive experience.",
-      "modalTitle": "Virtual World",
-      "modalDescription": "A static website offering a deep dive into virtual routes, designed for discovery and digital adventure enthusiasts.",
-      "feature1": "Intuitive navigation through virtual routes.",
-      "feature2": "Responsive design optimized for mobile and tablet devices.",
-      "feature3": "Optimized image gallery for enhanced performance.",
-      "role": "As the lead developer, I designed the user interface and integrated various interactive features to offer an immersive and engaging experience."
-    },
-    "project6": {
-      "title": "Form",
-      "description": "A well-designed static site with HTML5 and CSS3, offering a simple and efficient form interface.",
-      "modalTitle": "Form",
-      "modalDescription": "A static website designed to present and collect information through well-crafted and intuitive forms.",
-      "feature1": "Intuitive navigation interface.",
-      "feature2": "Responsive design adapted to all devices, including mobiles.",
-      "feature3": "Optimized form for fast performance.",
-      "role": "As the lead developer, I designed the user interface and integrated various features to make the form user-friendly and enjoyable to use."
-    },
-    "project7": {
-      "title": "Online CV",
-      "description": "An elegant static site built with HTML5, CSS3, offering a professional and modern CV interface.",
-      "modalTitle": "Online CV",
-      "modalDescription": "A static website offering a clear and professional presentation of your CV, designed for job seekers and professionals.",
-      "feature1": "Intuitive navigation between CV sections.",
-      "feature2": "Responsive design adapted to all devices, including mobiles.",
-      "feature3": "Optimized performance for a smooth and fast user experience.",
-      "role": "As the lead developer, I designed the user interface and integrated various features to make the online CV simple and engaging."
-    },
-    "project8": {
-      "title": "Portfolio",
-      "description": "A static, modern website built with HTML5, CSS3, and JavaScript, offering a seamless and intuitive user experience.",
+      "title": "Web Application",
+      "description": "A web application to manage team projects and tasks.",
       "linkLabel": "View more details",
-      "modalTitle": "Portfolio",
-      "modalDescription": "Explore a showcase of creative projects developed with passion and precision.",
-      "feature1": "Intuitive navigation between site sections.",
-      "feature2": "Responsive design suitable for all devices, including mobile and tablets.",
-      "feature3": "Optimized image gallery for fast loading and high performance.",
-      "role": "As the lead developer, I designed the user interface and integrated interactive features to enhance the user experience.",
-      "onlineLink": "View Project Online",
-      "demoLink": "View Demo on My YouTube Channel"
-    },
-    "technologiesUsed": "Technologies Used",
-    "keyFeatures": "Key Features",
-    "role": "Role in Project",
-    "projectLinks": "Project Links",
-    "onlineLink": "View Project Online",
-    "demonstrations": "Demonstrations",
-    "demoLink": "View Demo on My YouTube Channel",
-    "modal": {
-      "close": "Close"
+      "modalTitle": "Web Application",
+      "modalDescription": "An interactive application designed for efficient team collaboration on projects and tasks.",
+      "feature": "Key Features",
+      "featureOption": [
+        "Real-time task management.",
+        "Interactive Kanban boards.",
+        "Real-time notifications of updates."
+      ],
+      "role": "I designed the user interface, integrated the backend API, and managed the state with Redux.",
+      "technologies": ["React.js", "Node.js", "MongoDB"],
+      "librariesAndCDN": ["React Router CDN", "Express.js CDN", "Axios CDN"],
+      "modernAnimations": ["Transition animations with React Transition Group"],
+      "projectLinks": "View the application online",
+      "demoLinks": "View the demo on GitHub"
     }
   }
 }
