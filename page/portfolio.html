@@ -23,12 +23,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-
-    <!-- External Scripts -->
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <!-- ScrollReveal -->
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <!-- Typed.js -->
   </head>
   <body>
     <!-- =================================================================================================
@@ -36,18 +30,41 @@
     ================================================================================================== -->
     <div id="header"></div>
 
+    <!-- =================================================================================================
+    NAVIGATION SECTION
+    ================================================================================================== -->
     <main>
       <!-- =================================================================================================
       PORTFOLIO SECTION
       ================================================================================================== -->
-      <section id="portfolio" class="portfolio">
+      <section id="portfolio" class="portfolio portfolio-website">
         <h1>
-          <span data-i18n="portfolio2.title">Latest</span>
-          <span data-i18n="portfolio2.titleHighlight">Projects</span>
+          <span data-i18n="portfolio2.website"></span>
         </h1>
-        <div class="portfolio-list" id="portfolio-list"></div>
+        <div class="portfolio-list" id="portfolio-list2"></div>
       </section>
 
+      <!-- =================================================================================================
+    PORTFOLIO SECTION
+    ================================================================================================== -->
+      <section id="portfolio" class="portfolio">
+        <h1>
+          <span data-i18n="portfolio2.webApp"></span>
+        </h1>
+        <div class="portfolio-list" id="portfolio-list3"></div>
+      </section>
+
+      <!-- =================================================================================================
+    PORTFOLIO SECTION
+    ================================================================================================== -->
+      <section id="portfolio" class="portfolio">
+        <div class="portfolio">
+          <h1>
+            <span data-i18n="portfolio2.design"></span>
+          </h1>
+          <div class="portfolio-list" id="portfolio-list4"></div>
+        </div>
+      </section>
       <!-- ===================================================================================================================================================================
      scroll-up
     ==================================================================================================================================================================== -->
@@ -57,6 +74,9 @@
       </div>
     </main>
 
-    <script src="/PORTFOLIO/js/index.js"></script>
+    <script src="../js/portfolio-website.js"></script>
+    <script src="../js/portfolio-webApp.js"></script>
+    <script src="../js/portfolio-design.js"></script>
+    <script src="../js/index.js"></script>
   </body>
 </html>

@@ -24,6 +24,8 @@
   overflow: hidden;
   background: var(--Black);
   min-height: 150px;
+  max-height: 222px;
+  max-width: 432px;
 }
 
 .portfolio-item img {
@@ -98,11 +100,20 @@
   margin-top: 30px;
 }
 
-/*=====================================*/
-
-/*========================================================================================================*/
 .portfolio {
-  min-height: 100vh !important;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  min-height: auto;
+  padding: 15px 0;
+}
+
+.portfolio-website {
+  margin-top: 80px;
+}
+
+.portfolio h1 {
+  margin: 0 !important;
+  padding: 30px 0 !important;
+}
+
+.portfolio h1 {
+  font-size: 1.8rem;
 }

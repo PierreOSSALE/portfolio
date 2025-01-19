@@ -127,9 +127,11 @@
   color: var(--cyan);
 }
 
-.contact-info .social-icons {
-  margin: 50px 20px;
-}
+.contact-info .social-icons {margin: 50px 20px;}
+.contact-info .social-icons i {transform: translateX(0);
+  opacity: 0;
+  animation: slideInLeft 0.95s ease forwards;
+  animation-delay: calc(0.1s * var(--i));}
 .social-icons h4 {
   text-align: left;
 }

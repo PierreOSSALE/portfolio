@@ -211,11 +211,22 @@ input[type="submit"]:hover,
     padding: 15px;
     font-size: 1rem;
     color: var(--bg); /* Text color */
+    animation: none !important;
+    transition: none !important;
   }
-
   /* Remove pseudo-elements from links */
   #navbar .nav-list li a::after {
     display: none;
+  }
+  .menu-header {
+    display: flex;
+  }
+  .menu-title {
+    display: block;
+  }
+
+  .menu-header i {
+    display: block;
   }
 }
 
@@ -256,7 +267,6 @@ input[type="submit"]:hover,
   /* Adjust section layout */
   section {
     scroll-margin-top: 60px !important;
-    min-height: 100vh !important;
     padding: 25px 15px !important;
   }
   .hero-section {
@@ -548,17 +558,6 @@ input[type="submit"]:hover,
     opacity: 1;
   }
 }
-@keyframes slideInRight {
-  0% {
-    transform: translateX(-100px);
-    opacity: 0;
-  }
-
-  100% {
-    transform: translateX(0px);
-    opacity: 1;
-  }
-}
 @keyframes slideInLeft {
   0% {
     transform: translateX(-100%);
@@ -569,21 +568,3 @@ input[type="submit"]:hover,
     opacity: 1;
   }
 }
-/* #home {
-  background: #e9adad;
-}
-#about {
-  background: teal;
-}
-#services {
-  background: #e5e5e5;
-}
-#skills {
-  background: #03346e;
-}
-#portfolio {
-  background: brown;
-}
-#contact {
-  background: rebeccapurple;
-} */

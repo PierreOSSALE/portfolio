@@ -38,13 +38,14 @@
     "job2_desc": "Front-End Developer at Carthage Development Solutions."
   },
   "ProjectsCompleted": "Projects Completed",
-  "portfolioLink": "portfolio",
+  "discoverM": "Discover all my creations",
+  "portfolioLink": "here",
 
   "services2": {
     "title": "My Services",
     "frontend": {
       "title": "Frontend Web Developer",
-      "description": "Designing and developing modern, responsive user interfaces using technologies such as HTML5, CSS3, Sass, JavaScript, React.js, and Bootstrap.",
+      "description": "Designing and developing modern, responsive user interfaces using technologies such as HTML5, CSS3, Sass, JavaScript, React.js,Tailwind CSS and Bootstrap.",
       "learn_more": "Learn More",
       "modal_description": "I am passionate about web development, focusing on creating modern, responsive, and intuitive user interfaces. My goal is to provide elegant and high-performance solutions tailored to each project's needs.",
       "offer_title": "What I Offer",
@@ -74,10 +75,10 @@
       "title": "UI/UX Designer",
       "description": "Creating visually appealing designs and user experiences with Figma to ensure engaging and intuitive interfaces for your users.",
       "learn_more": "Learn more",
-      "modal_description": "With expertise in UI/UX design, I create engaging, visually appealing, and intuitive interfaces that enhance user experience. Using tools like Figma, I ensure a seamless transition from design to development for web applications and websites.",
+      "modal_description": "With expertise in UI/UX design, I create engaging, visually appealing, and intuitive interfaces that enhance user experience. Using tools like Figma and Canva, I ensure a seamless transition from design to development for web applications and websites.",
       "offer_title": "What I Offer",
       "offer": {
-        "1": "Creation of mockups, prototypes, and UI kits",
+        "1": "Creation of mockups, prototypes, posters, flyers and UI kits",
         "2": "User-centered interface design with Figma",
         "3": "UX research and analysis to optimize user behavior",
         "4": "Branding and UI/UX designs for applications and websites",
@@ -86,27 +87,14 @@
     }
   },
 
-  "contact2": {
-    "title": "Contact",
-    "me": "me",
-    "details": "Contact Details",
-    "email": "Email",
-    "whatsapp": "WhatsApp",
-    "messenger": "Messenger",
-    "socialInfo": "Social Information"
-  },
-  "form": {
-    "namePlaceholder": "Enter Your Name",
-    "emailPlaceholder": "Enter Your Email",
-    "subjectPlaceholder": "Enter Your Subject",
-    "messagePlaceholder": "Enter Your Message",
-    "submitButton": "Submit",
-    "successMessage": "Your message has been sent successfully!"
-  },
-
   "portfolio2": {
     "title": "Latest",
     "titleHighlight": "Projects",
+    "website": "web site",
+    "webApp": "web App",
+    "design": "Graphic design",
+    "projectLink": "View the application online",
+    "demoLink": "View the demo on GitHub",
     "project1": {
       "title": "Portfolio",
       "description": "A modern and interactive website designed to showcase your projects, skills, and services, while allowing visitors to easily contact you.",
@@ -153,5 +141,23 @@
       "projectLinks": "View the application online",
       "demoLinks": "View the demo on GitHub"
     }
+  },
+
+  "contact2": {
+    "title": "Contact",
+    "me": "me",
+    "details": "Contact Details",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "messenger": "Messenger",
+    "socialInfo": "Social Information"
+  },
+  "form": {
+    "namePlaceholder": "Enter Your Name",
+    "emailPlaceholder": "Enter Your Email",
+    "subjectPlaceholder": "Enter Your Subject",
+    "messagePlaceholder": "Enter Your Message",
+    "submitButton": "Submit",
+    "successMessage": "Your message has been sent successfully!"
   }
 }

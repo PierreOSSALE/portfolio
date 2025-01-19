@@ -1,0 +1,91 @@
+[
+  {
+    "id": 1,
+    "title": "Portfolio",
+    "image": "/PORTFOLIO/assets/Images/pj-7.png",
+    "description": "A modern and interactive website designed to showcase your projects, skills, and services while allowing visitors to easily contact you.",
+    "technologies": ["HTML5", "CSS3", "JavaScript"],
+    "librariesAndCDN": [
+      "Font Awesome CDN",
+      "ScrollReveal.js CDN",
+      "Typed.js CDN",
+      "i18next and i18next-http-backend CDN"
+    ],
+    "modernAnimations": [
+      "Scroll animations with ScrollReveal.js",
+      "Animated text effect with Typed.js"
+    ],
+    "features": [
+      "Intuitive navigation between sections.",
+      "Responsive design suitable for all devices.",
+      "Real-time multilingual internationalization."
+    ],
+    "role": "As the lead developer, I designed the user interface, integrated external libraries, and implemented a functional contact form.",
+    "projectLinks": [
+      {
+        "text": "View the project online",
+        "url": "http://127.0.0.1:5500/PORTFOLIO/index.html"
+      }
+    ],
+    "demoLinks": [
+      {
+        "text": "View the demo on my YouTube channel",
+        "url": "https://youtube.com"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Web Application",
+    "image": "/PORTFOLIO/assets/Images/pj-6.png",
+    "description": "A web application to manage team projects and tasks.",
+    "technologies": ["React.js", "Node.js", "MongoDB"],
+    "librariesAndCDN": ["React Router CDN", "Express.js CDN", "Axios CDN"],
+    "modernAnimations": ["Transition animations with React Transition Group"],
+    "features": [
+      "Real-time task management.",
+      "Interactive Kanban boards.",
+      "Real-time notifications of updates."
+    ],
+    "role": "I designed the user interface, integrated the backend API, and managed the state with Redux.",
+    "projectLinks": [
+      {
+        "text": "View the application online",
+        "url": "http://127.0.0.1:5500/PROJECTS/app.html"
+      }
+    ],
+    "demoLinks": [
+      {
+        "text": "View the demo on GitHub",
+        "url": "https://github.com"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Web Application",
+    "image": "/PORTFOLIO/assets/Images/pj-11.png",
+    "description": "A web application to manage team projects and tasks.",
+    "technologies": ["React.js", "Node.js", "MongoDB"],
+    "librariesAndCDN": ["React Router CDN", "Express.js CDN", "Axios CDN"],
+    "modernAnimations": ["Transition animations with React Transition Group"],
+    "features": [
+      "Real-time task management.",
+      "Interactive Kanban boards.",
+      "Real-time notifications of updates."
+    ],
+    "role": "I designed the user interface, integrated the backend API, and managed the state with Redux.",
+    "projectLinks": [
+      {
+        "text": "View the application online",
+        "url": "http://127.0.0.1:5500/PROJECTS/app.html"
+      }
+    ],
+    "demoLinks": [
+      {
+        "text": "View the demo on GitHub",
+        "url": "https://github.com"
+      }
+    ]
+  }
+]

@@ -1,13 +1,14 @@
 // Fonction pour charger dynamiquement des fichiers JavaScript avec gestion de l'ordre
 const loadScriptsSequentially = async () => {
   const scripts = [
+    "https://unpkg.com/scrollreveal",
+    "https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js",
     "https://unpkg.com/i18next@latest/i18next.min.js",
     "https://unpkg.com/i18next-http-backend@latest/i18nextHttpBackend.min.js",
+    "/PORTFOLIO/js/scrollReveal.js",
     "/PORTFOLIO/js/i18n.js",
     "/PORTFOLIO/js/menu.js",
     "/PORTFOLIO/js/scroll.js",
-    "/PORTFOLIO/js/portfolio.js",
-    "/PORTFOLIO/js/scrollReveal.js",
     "/PORTFOLIO/js/service.js",
     "/PORTFOLIO/js/contact.js",
     "/PORTFOLIO/js/modal.js",
@@ -18,7 +19,7 @@ const loadScriptsSequentially = async () => {
     await new Promise((resolve, reject) => {
       const script = document.createElement("script");
       script.src = src;
-      script.defer = true; // Charger les scripts en différé
+      // Charger les scripts en différé
       script.onload = resolve;
       script.onerror = () =>
         reject(new Error(`Erreur lors du chargement de ${src}`));

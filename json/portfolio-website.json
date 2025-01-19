@@ -37,7 +37,7 @@
   {
     "id": 2,
     "title": "Web Application",
-    "image": "/PORTFOLIO/assets/Images/pj-2.png",
+    "image": "/PORTFOLIO/assets/Images/pj-4.png",
     "description": "A web application to manage team projects and tasks.",
     "technologies": ["React.js", "Node.js", "MongoDB"],
     "librariesAndCDN": ["React Router CDN", "Express.js CDN", "Axios CDN"],
@@ -64,7 +64,7 @@
   {
     "id": 3,
     "title": "Web Application",
-    "image": "/PORTFOLIO/assets/Images/pj-9.png",
+    "image": "/PORTFOLIO/assets/Images/pj-2.png",
     "description": "A web application to manage team projects and tasks.",
     "technologies": ["React.js", "Node.js", "MongoDB"],
     "librariesAndCDN": ["React Router CDN", "Express.js CDN", "Axios CDN"],

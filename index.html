@@ -27,37 +27,44 @@
       referrerpolicy="no-referrer"
     />
 
-    <!-- Link to ScrollReveal.js for Animations on Scroll -->
-    <script src="https://unpkg.com/scrollreveal"></script>
-
-    <!-- Link to Typed.js for Typing Animation Effect -->
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <!--  -->
+    <!-- Link to Swiper CDN for the responsive slider -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
   </head>
 
   <body>
     <!-- ===================================================================================================================================================================
     HEADER SECTION
     ==================================================================================================================================================================== -->
+    <div id="header" aria-label="Header Section"></div>
 
-    <div id="header"></div>
-
-    <main>
+    <!-- ===================================================================================================================================================================
+    NAVIGATION SECTION
+    ==================================================================================================================================================================== -->
+    <main aria-label="Main Content">
       <!-- ===================================================================================================================================================================
     home section
     ==================================================================================================================================================================== -->
 
-      <section id="home" class="hero-section">
+      <section id="home" class="hero-section" aria-label="Home Section">
         <div class="hero-content">
           <!-- Main welcome heading and introduction -->
-          <h3 data-i18n="Welcome">Welcome</h3>
-          <h1 data-i18n="name">SIMON OSSALE</h1>
-          <h3>
-            <span data-i18n="webDeveloper">Web Developer</span>
-            <span class="dynamic-text"></span>
+          <h3 data-i18n="Welcome" aria-label="Welcome Message">Welcome</h3>
+          <h1 data-i18n="name" aria-label="Name">SIMON OSSALE</h1>
+          <h3 aria-label="Professional Title">
+            <span data-i18n="webDeveloper" aria-label="Web Developer Title">
+              SIMON OSSALE Web Developer
+            </span>
+            <span class="dynamic-text" aria-label="Dynamic Text"></span>
           </h3>
 
-          <p class="paragraph" data-i18n="intro">
+          <p
+            class="paragraph"
+            data-i18n="intro"
+            aria-label="Introduction Paragraph"
+          >
             Welcome to my portfolio! I am a freelance web developer specializing
             in creating high-performance and innovative digital solutions.
             Passionate about modern technologies, I excel in both front-end and
@@ -65,7 +72,7 @@
             user interfaces.
           </p>
           <!-- Social media links -->
-          <div class="social-icons">
+          <div class="social-icons" aria-label="Social Media Links">
             <a
               href="https://www.linkedin.com/in/ossale-simon-pierre?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               aria-label="LinkedIn Profile"
@@ -102,15 +109,22 @@
           <!-- Link to the CV -->
           <a
             href="https://cv-pierre-simon-ossale.onrender.com/"
+            aria-label="View CV Online"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button class="btn" data-i18n="viewCV">View My CV</button>
+            <button
+              class="btn"
+              data-i18n="viewCV"
+              aria-label="View My CV Button"
+            >
+              View My CV
+            </button>
           </a>
         </div>
         <!-- Logo Image-->
-        <div class="hero-img">
-          <div class="img-container">
+        <div class="hero-img" aria-label="Hero Image Section">
+          <div class="img-container" aria-label="Logo Container">
             <img src="./assets/Images/LCR-logo.png" alt="Simon Ossale's Logo" />
           </div>
         </div>
@@ -120,116 +134,125 @@
     About Me Section
     ==================================================================================================================================================================== -->
 
-      <section id="about" class="section">
-        <div class="about-img">
-          <div class="img-container">
+      <section id="about" class="section" aria-label="About Section">
+        <div class="about-img" aria-label="About Image">
+          <div class="img-container" aria-label="Image Container">
             <img
               src="./assets/Images/LCR-logo.png"
               alt="Image of Simon Ossale"
+              aria-label="Logo Image of Simon Ossale"
             />
           </div>
         </div>
-        <div class="about-card-modal">
-          <div class="about-content">
-            <!-- About section title and introductory text -->
-            <h1>
-              <span data-i18n="About">About</span>
-              <span data-i18n="Me">Me</span>
+        <div class="about-card-modal" aria-label="About Card Modal">
+          <div class="about-content" aria-label="About Content">
+            <h1 aria-label="About Me Title">
+              <span data-i18n="About"></span>
+              <span data-i18n="Me"></span>
             </h1>
-            <h3 data-i18n="FullStackDeveloper">FullStack Developer</h3>
-            <p data-i18n="introAbout">
-              I am Simon Ossale, a passionate full-stack web developer
-              specializing in the creation of modern and high-performance
-              digital solutions. As a freelancer, I support businesses,
-              startups, and entrepreneurs in their projects by offering
-              personalized services tailored to their needs and objectives.
-            </p>
-            <a class="about-see-more">
-              <button class="btn" data-i18n="LearnMore">Learn More</button>
+            <h3
+              data-i18n="FullStackDeveloper"
+              aria-label="Full-Stack Developer"
+            ></h3>
+            <p data-i18n="introAbout" aria-label="Introduction"></p>
+            <a class="about-see-more" aria-label="Learn More Link">
+              <button
+                class="btn"
+                data-i18n="LearnMore"
+                aria-label="Learn More Button"
+              ></button>
             </a>
           </div>
-          <div class="about-modal-backdrop">
-            <div class="about-modal">
-              <a class="modal-close-btn">
+          <div class="about-modal-backdrop" aria-label="Modal Backdrop">
+            <div class="about-modal" aria-label="Modal Dialog">
+              <a class="modal-close-btn" aria-label="Close Modal Button">
                 <i class="fa-solid fa-xmark"></i>
               </a>
-              <div class="modal-content">
-                <div class="modal-title">
-                  <!-- Modal content with more detailed information -->
-                  <h2 data-i18n="FullStackDeveloper">FullStack Developer</h2>
-                  <p class="p-1" data-i18n="ExpertiseDescription">
-                    With expertise in modern technologies like React.js and
-                    Spring Boot, I design and develop robust, intuitive
-                    applications tailored to users' specific needs.
-                  </p>
+              <div class="modal-content" aria-label="Modal Content">
+                <div class="modal-title" aria-label="Modal Title">
+                  <h2
+                    data-i18n="FullStackDeveloper"
+                    aria-label="Full-Stack Developer"
+                  ></h2>
+                  <p
+                    class="p-1"
+                    data-i18n="ExpertiseDescription"
+                    aria-label="Expertise Description"
+                  ></p>
                 </div>
-                <h3 data-i18n="TechnicalSkills">Technical Skills</h3>
-                <ul>
-                  <li>
-                    <span data-i18n="FrontendDevelopment"
-                      >Front-end Development:</span
-                    >
-                    <span class="element" data-i18n="FrontendTechnologies"
-                      >React.js, HTML5, CSS3 & JavaScript</span
-                    >
+                <h3
+                  data-i18n="TechnicalSkills"
+                  aria-label="Technical Skills"
+                ></h3>
+                <ul aria-label="Technical Skills List">
+                  <li aria-label="Frontend Development">
+                    <span data-i18n="FrontendDevelopment"></span>
+                    <span
+                      class="element"
+                      data-i18n="FrontendTechnologies"
+                      aria-label="Frontend Technologies"
+                    ></span>
                   </li>
-                  <li>
-                    <span data-i18n="BackendDevelopment"
-                      >Back-end Development:</span
-                    >
-                    <span class="element" data-i18n="BackendTechnologies"
-                      >Spring Boot, Java, PHP</span
-                    >
+                  <li aria-label="Backend Development">
+                    <span data-i18n="BackendDevelopment"></span>
+                    <span
+                      class="element"
+                      data-i18n="BackendTechnologies"
+                      aria-label="Backend Technologies"
+                    ></span>
                   </li>
-                  <li>
-                    <span data-i18n="Database">Database:</span>
-                    <span class="element" data-i18n="DatabaseTechnologies"
-                      >MySQL, PostgreSQL, SQL</span
-                    >
+                  <li aria-label="Database">
+                    <span data-i18n="Database"></span>
+                    <span
+                      class="element"
+                      data-i18n="DatabaseTechnologies"
+                      aria-label="Database Technologies"
+                    ></span>
                   </li>
-                  <li>
-                    <span data-i18n="VersionControl"
-                      >Version Control Tools:</span
-                    >
-                    <span class="element" data-i18n="VersionControlTechnologies"
-                      >Git, GitHub</span
-                    >
+                  <li aria-label="Version Control">
+                    <span data-i18n="VersionControl"></span>
+                    <span
+                      class="element"
+                      data-i18n="VersionControlTechnologies"
+                      aria-label="Version Control Technologies"
+                    ></span>
                   </li>
                 </ul>
-                <h3 data-i18n="experience.title">Experience</h3>
-                <p class="p-2">
-                  <strong data-i18n="experience.freelance"
-                    >May 2024 - Present:</strong
-                  >
-                  <span data-i18n="experience.freelance_desc">
-                    Full-Stack Developer Freelance. </span
-                  ><br />
-
-                  <strong data-i18n="experience.job1"
-                    >December 2023 - May 2024:</strong
-                  >
-                  <span data-i18n="experience.job1_desc">
-                    Full-Stack Developer at Tunisia Technologies. </span
-                  ><br />
-
-                  <strong data-i18n="experience.job2"
-                    >November 2022 - November 2023:</strong
-                  >
-                  <span data-i18n="experience.job2_desc">
-                    Front-End Developer at Carthage Development Solutions. </span
-                  ><br />
+                <h3
+                  data-i18n="experience.title"
+                  aria-label="Experience Title"
+                ></h3>
+                <p class="p-2" aria-label="Experience Description">
+                  <strong
+                    data-i18n="experience.freelance"
+                    aria-label="Freelance Work"
+                  ></strong>
+                  <span data-i18n="experience.freelance_desc"></span>
+                  <br />
+                  <strong
+                    data-i18n="experience.job1"
+                    aria-label="Job 1"
+                  ></strong>
+                  <span data-i18n="experience.job1_desc"></span><br />
+                  <strong
+                    data-i18n="experience.job2"
+                    aria-label="Job 2"
+                  ></strong>
+                  <span data-i18n="experience.job2_desc"></span><br />
                 </p>
-
-                <h3 data-i18n="ProjectsCompleted">Projects Completed</h3>
-                <p class="p-3">
-                  Discover my work on my
+                <h3
+                  data-i18n="ProjectsCompleted"
+                  aria-label="Projects Completed"
+                ></h3>
+                <p class="p-3" aria-label="Portfolio Link">
+                  <span data-i18n="discoverM"></span>
                   <a
-                    href="#portfolio"
+                    href="./page/portfolio.html"
                     class="element"
                     id="modal-close-btn"
                     data-i18n="portfolioLink"
-                    >portfolio</a
-                  >.
+                    aria-label="Portfolio Link"
+                  ></a>
                 </p>
               </div>
             </div>
@@ -242,25 +265,20 @@
     ==================================================================================================================================================================== -->
 
       <section id="services" class="service-container">
-        <h1 data-i18n="services2.title">My Services</h1>
+        <h1 data-i18n="services2.title"></h1>
         <div class="service-list">
           <!-- Service: Frontend Development -->
           <div class="service-card-modal">
             <div class="service-item">
               <div class="service-content">
                 <i class="fas fa-code"></i>
-                <h2 data-i18n="services2.frontend.title">
-                  Frontend Web Developer
-                </h2>
-                <p data-i18n="services2.frontend.description">
-                  Designing and developing modern, responsive user interfaces
-                  using technologies such as HTML5, CSS3, Sass, JavaScript,
-                  React.js, and Bootstrap.
-                </p>
+                <h2 data-i18n="services2.frontend.title"></h2>
+                <p data-i18n="services2.frontend.description"></p>
                 <a class="service-see-more">
-                  <button class="btn" data-i18n="services2.frontend.learn_more">
-                    Learn More
-                  </button>
+                  <button
+                    class="btn"
+                    data-i18n="services2.frontend.learn_more"
+                  ></button>
                 </a>
               </div>
             </div>
@@ -270,53 +288,30 @@
                 <a class="modal-close-btn"><i class="fa-solid fa-xmark"></i></a>
                 <div class="modal-content">
                   <div class="modal-title">
-                    <h2 data-i18n="services2.frontend.title">
-                      Frontend Web Developer
-                    </h2>
-                    <p data-i18n="services2.frontend.modal_description">
-                      I am passionate about web development, focusing on
-                      creating modern, responsive, and intuitive user
-                      interfaces. My goal is to provide elegant and
-                      high-performance solutions tailored to each project's
-                      needs.
-                    </p>
+                    <h2 data-i18n="services2.frontend.title"></h2>
+                    <p data-i18n="services2.frontend.modal_description"></p>
                   </div>
-                  <h4 data-i18n="services2.frontend.offer_title">
-                    What I Offer
-                  </h4>
+                  <h4 data-i18n="services2.frontend.offer_title"></h4>
                   <ul class="my-service">
                     <li>
                       <i class="fa-solid fa-circle-check"></i>
-                      <p data-i18n="services2.frontend.offer.1">
-                        Creation of responsive, device-optimized websites
-                      </p>
+                      <p data-i18n="services2.frontend.offer.1"></p>
                     </li>
                     <li>
                       <i class="fa-solid fa-circle-check"></i>
-                      <p data-i18n="services2.frontend.offer.2">
-                        Development of user interfaces with HTML5, CSS3, and
-                        JavaScript
-                      </p>
+                      <p data-i18n="services2.frontend.offer.2"></p>
                     </li>
                     <li>
                       <i class="fa-solid fa-circle-check"></i>
-                      <p data-i18n="services2.frontend.offer.3">
-                        Integration of modern frameworks like React.js and
-                        Bootstrap
-                      </p>
+                      <p data-i18n="services2.frontend.offer.3"></p>
                     </li>
                     <li>
                       <i class="fa-solid fa-circle-check"></i>
-                      <p data-i18n="services2.frontend.offer.4">
-                        Performance and SEO optimization for better visibility
-                      </p>
+                      <p data-i18n="services2.frontend.offer.4"></p>
                     </li>
                     <li>
                       <i class="fa-solid fa-circle-check"></i>
-                      <p data-i18n="services2.frontend.offer.5">
-                        Close collaboration with backend teams for smooth
-                        integration
-                      </p>
+                      <p data-i18n="services2.frontend.offer.5"></p>
                     </li>
                   </ul>
                 </div>
@@ -479,7 +474,7 @@
     ==================================================================================================================================================================== -->
 
       <section id="skills">
-        <h1 data-i18n="skills">Skills</h1>
+        <h1 data-i18n="skills"></h1>
         <div class="technical-skills">
           <div class="skills-section">
             <div class="skill-item">
@@ -792,17 +787,18 @@
       <!-- =================================================================================================
       PORTFOLIO SECTION
       ================================================================================================== -->
-      <section id="portfolio" class="portfolio">
+      <section id="portfolio">
         <h1>
-          <span data-i18n="portfolio2.title">Latest</span>
-          <span data-i18n="portfolio2.titleHighlight">Projects</span>
+          <span data-i18n="portfolio2.title"></span>
+          <span data-i18n="portfolio2.titleHighlight"></span>
         </h1>
         <div class="portfolio-list" id="portfolio-list"></div>
         <div class="more-portfolio">
           <a href="./page/portfolio.html">
-            <button class="btn" data-i18n="services2.frontend.learn_more">
-              Learn More
-            </button>
+            <button
+              class="btn"
+              data-i18n="services2.frontend.learn_more"
+            ></button>
           </a>
         </div>
       </section>
@@ -814,15 +810,15 @@
       <section id="contact">
         <!-- Section title -->
         <h1>
-          <span data-i18n="contact2.title">Contact</span>
-          <span data-i18n="contact2.me" class="element">me</span>
+          <span data-i18n="contact2.title"></span>
+          <span data-i18n="contact2.me" class="element"></span>
         </h1>
 
         <!-- Main container for contact information and the contact form -->
         <div class="contact-container">
           <div class="contact-info">
             <!-- Contact Information Section -->
-            <h4 data-i18n="contact2.details">Contact Details</h4>
+            <h4 data-i18n="contact2.details"></h4>
 
             <!-- Email Contact Box -->
             <div class="contact-box">
@@ -831,7 +827,7 @@
                 <i class="fa-solid fa-envelope"></i>
               </div>
               <div class="box-info">
-                <h6 data-i18n="contact2.email">Email</h6>
+                <h6 data-i18n="contact2.email"></h6>
                 <!-- Display email address -->
                 <p>pierreossale.devweb@gmail.com</p>
                 <!-- Link to send email -->
@@ -848,7 +844,7 @@
                 <i class="fa-brands fa-whatsapp"></i>
               </div>
               <div class="box-info">
-                <h6 data-i18n="contact2.whatsapp">WhatsApp</h6>
+                <h6 data-i18n="contact2.whatsapp"></h6>
                 <!-- Display WhatsApp number -->
                 <p>+21626315088</p>
                 <!-- Link to initiate WhatsApp chat -->
@@ -865,7 +861,7 @@
                 <i class="fa-brands fa-facebook-messenger"></i>
               </div>
               <div class="box-info">
-                <h6 data-i18n="contact2.messenger">Messenger</h6>
+                <h6 data-i18n="contact2.messenger"></h6>
                 <!-- Display Messenger user name -->
                 <p>Lcr Peter</p>
                 <!-- Link to initiate Messenger chat -->
@@ -877,7 +873,7 @@
 
             <!-- Social Media Links Section -->
             <div class="social-icons">
-              <h4 data-i18n="contact2.socialInfo">Social Information</h4>
+              <h4 data-i18n="contact2.socialInfo"></h4>
               <!-- LinkedIn Link -->
               <a
                 href="https://www.linkedin.com/in/ossale-simon-pierre?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
@@ -972,11 +968,15 @@
       <div class="scroll-up" id="scrollUp">
         <i class="fa-solid fa-arrow-up"></i>
       </div>
+
+      <!-- End of Document Body -->
     </main>
 
     <!-- ===================================================================================================================================================================
     Script Section
     ==================================================================================================================================================================== -->
+
+    <script src="./js/portfolio.js"></script>
     <script src="./js/index.js"></script>
   </body>
 </html>
