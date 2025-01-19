@@ -32,7 +32,7 @@ const loadScriptsSequentially = async () => {
 const loadContent = async () => {
   try {
     // Récupérer et insérer le contenu du header
-    const headerRes = await fetch("/PORTFOLIO/page/header.html");
+    const headerRes = await fetch("../page/header.html");
     const headerData = await headerRes.text();
     document.getElementById("header").innerHTML = headerData;
 
