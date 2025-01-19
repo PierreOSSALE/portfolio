@@ -5,14 +5,14 @@ const loadScriptsSequentially = async () => {
     "https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js",
     "https://unpkg.com/i18next@latest/i18next.min.js",
     "https://unpkg.com/i18next-http-backend@latest/i18nextHttpBackend.min.js",
-    "./scrollReveal.js",
-    "./i18n.js",
-    "./menu.js",
-    "/PORTFOLIO/js/scroll.js",
-    "/PORTFOLIO/js/service.js",
-    "/PORTFOLIO/js/contact.js",
-    "/PORTFOLIO/js/modal.js",
-    "/PORTFOLIO/js/typed.js",
+    "./js/scrollReveal.js",
+    "./js/i18n.js",
+    "./js/menu.js",
+    "./js/scroll.js",
+    "./js/service.js",
+    "./js/contact.js",
+    "./js/modal.js",
+    "./js/typed.js",
   ];
 
   for (const src of scripts) {
@@ -32,7 +32,7 @@ const loadScriptsSequentially = async () => {
 const loadContent = async () => {
   try {
     // Récupérer et insérer le contenu du header
-    const headerRes = await fetch("../page/header.html");
+    const headerRes = await fetch("./page/header.html");
     const headerData = await headerRes.text();
     document.getElementById("header").innerHTML = headerData;
 
