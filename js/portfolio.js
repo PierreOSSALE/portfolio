@@ -1,4 +1,4 @@
-fetch("/PORTFOLIO/json/portfolio-index.json")
+fetch("./json/portfolio-index.json")
   .then((response) => response.json())
   .then((projects) => {
     const portfolioList = document.getElementById("portfolio-list");
