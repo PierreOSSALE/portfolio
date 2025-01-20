@@ -5,7 +5,8 @@ Changement de langue avec détection régionale
 // Détecter la langue et la région préférées de l'utilisateur
 const userLang = navigator.language || navigator.languages[0] || "en"; // Langue par défaut si rien n'est détecté
 const [language, region] = userLang.split("-"); // Séparer langue et région (par ex., "fr" et "FR")
-
+const currentPath = window.location.pathname;
+let basePath = currentPath.includes("/page/") ? "../" : "./";
 // Déterminer la langue de secours basée sur la région
 let fallbackLang;
 switch (region) {
@@ -32,7 +33,7 @@ i18next.use(i18nextHttpBackend).init(
     fallbackLng: fallbackLang, // Langue de secours basée sur la région
     debug: true,
     backend: {
-      loadPath: "/PORTFOLIO/locales/{{lng}}/translation.json", // Chemin des fichiers JSON
+      loadPath: `${basePath}locales/{{lng}}/translation.json`, // Chemin des fichiers JSON
     },
   },
   (err, t) => {
