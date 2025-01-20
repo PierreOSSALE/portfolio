@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Portfolio",
-    "image": "./assets/Images/pj-7.png",
+    "image": "../assets/Images/pj-7.png",
     "description": "A modern and interactive website designed to showcase your projects, skills, and services while allowing visitors to easily contact you.",
     "technologies": ["HTML5", "CSS3", "JavaScript"],
     "librariesAndCDN": [
@@ -37,7 +37,7 @@
   {
     "id": 2,
     "title": "Web Application",
-    "image": "./assets/Images/pj-6.png",
+    "image": "../assets/Images/pj-6.png",
     "description": "A web application to manage team projects and tasks.",
     "technologies": ["React.js", "Node.js", "MongoDB"],
     "librariesAndCDN": ["React Router CDN", "Express.js CDN", "Axios CDN"],
@@ -64,7 +64,7 @@
   {
     "id": 3,
     "title": "Web Application",
-    "image": "./assets/Images/pj-11.png",
+    "image": "../assets/Images/pj-11.png",
     "description": "A web application to manage team projects and tasks.",
     "technologies": ["React.js", "Node.js", "MongoDB"],
     "librariesAndCDN": ["React Router CDN", "Express.js CDN", "Axios CDN"],

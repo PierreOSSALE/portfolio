@@ -32,7 +32,7 @@ i18next.use(i18nextHttpBackend).init(
     fallbackLng: fallbackLang, // Langue de secours basée sur la région
     debug: true,
     backend: {
-      loadPath: "./locales/{{lng}}/translation.json", // Chemin des fichiers JSON
+      loadPath: "/PORTFOLIO/locales/{{lng}}/translation.json", // Chemin des fichiers JSON
     },
   },
   (err, t) => {
