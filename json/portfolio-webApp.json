@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Web Application",
-    "image": "/PORTFOLIO/assets/Images/pj-9.png",
+    "image": "../assets/Images/pj-9.png",
     "description": "A web application to manage team projects and tasks.",
     "technologies": ["React.js", "Node.js", "MongoDB"],
     "librariesAndCDN": ["React Router CDN", "Express.js CDN", "Axios CDN"],
