@@ -86,15 +86,21 @@
       }
     }
   },
-
-  "portfolio2": {
+  "portfolioGlobal": {
     "title": "Latest",
     "titleHighlight": "Projects",
+    "role": "Role in the Project",
+    "technologies": "Technologies Used",
+    "libraries": "Libraries and CDNs Integrated",
     "website": "web site",
     "webApp": "web App",
     "design": "Graphic design",
-    "projectLink": "View the application online",
-    "demoLink": "View the demo on GitHub",
+    "projectLink": "Links",
+    "projectLinks": "View the project online",
+    "demoLink": "Demo",
+    "demoLinks": "View the demo on my YouTube channel"
+  },
+  "portfolio-index": {
     "project1": {
       "title": "Portfolio",
       "description": "A modern and interactive website designed to showcase your projects, skills, and services, while allowing visitors to easily contact you.",
@@ -118,11 +124,226 @@
       "modernAnimations": [
         "Scroll animations with ScrollReveal.js",
         "Animated text effect with Typed.js"
-      ],
-      "projectLinks": "View the project online",
-      "demoLinks": "View the demo on my YouTube channel"
+      ]
     },
     "project2": {
+      "title": "Train D",
+      "description": "A web application to manage team projects and tasks.",
+      "linkLabel": "View more details",
+      "modalTitle": "Web Application",
+      "modalDescription": "An interactive application designed for efficient team collaboration on projects and tasks.",
+      "feature": "Key Features",
+      "featureOption": [
+        "Real-time task management.",
+        "Interactive Kanban boards.",
+        "Real-time notifications of updates."
+      ],
+      "role": "I designed the user interface, integrated the backend API, and managed the state with Redux.",
+      "technologies": ["React.js", "Node.js", "MongoDB"],
+      "librariesAndCDN": ["React Router CDN", "Express.js CDN", "Axios CDN"],
+      "modernAnimations": ["Transition animations with React Transition Group"]
+    },
+    "project3": {
+      "title": "Meta Solution",
+      "description": "A web application to manage team projects and tasks.",
+      "linkLabel": "View more details",
+      "modalTitle": "Web Application",
+      "modalDescription": "An interactive application designed for efficient team collaboration on projects and tasks.",
+      "feature": "Key Features",
+      "featureOption": [
+        "Real-time task management.",
+        "Interactive Kanban boards.",
+        "Real-time notifications of updates."
+      ],
+      "role": "I designed the user interface, integrated the backend API, and managed the state with Redux.",
+      "technologies": ["React.js", "Node.js", "MongoDB"],
+      "librariesAndCDN": ["React Router CDN", "Express.js CDN", "Axios CDN"],
+      "modernAnimations": ["Transition animations with React Transition Group"]
+    },
+    "project4": {
+      "title": "Hiking Site",
+      "description": "A web application to manage team projects and tasks.",
+      "linkLabel": "View more details",
+      "modalTitle": "Web Application",
+      "modalDescription": "An interactive application designed for efficient team collaboration on projects and tasks.",
+      "feature": "Key Features",
+      "featureOption": [
+        "Real-time task management.",
+        "Interactive Kanban boards.",
+        "Real-time notifications of updates."
+      ],
+      "role": "I designed the user interface, integrated the backend API, and managed the state with Redux.",
+      "technologies": ["React.js", "Node.js", "MongoDB"],
+      "librariesAndCDN": ["React Router CDN", "Express.js CDN", "Axios CDN"],
+      "modernAnimations": ["Transition animations with React Transition Group"]
+    },
+    "project5": {
+      "title": "Meta Solution Design",
+      "description": "A modern and interactive website designed to showcase your projects, skills, and services, while allowing visitors to easily contact you.",
+      "linkLabel": "View more details",
+      "modalTitle": "Portfolio",
+      "modalDescription": "Explore a showcase of creative projects developed with passion and precision.",
+      "feature": "Key Features",
+      "featureOption": [
+        "Intuitive navigation between site sections.",
+        "Responsive design suitable for all devices.",
+        "Real-time multilingual internationalization."
+      ],
+      "role": "As the lead developer, I designed the user interface, integrated external libraries, and implemented a functional contact form.",
+      "technologies": ["HTML5", "CSS3", "JavaScript"],
+      "librariesAndCDN": [
+        "Font Awesome CDN",
+        "ScrollReveal.js CDN",
+        "Typed.js CDN",
+        "i18next and i18next-http-backend CDN"
+      ],
+      "modernAnimations": [
+        "Scroll animations with ScrollReveal.js",
+        "Animated text effect with Typed.js"
+      ]
+    },
+    "project6": {
+      "title": "SCHOOLGATE",
+      "description": "A web application to manage team projects and tasks.",
+      "linkLabel": "View more details",
+      "modalTitle": "Web Application",
+      "modalDescription": "An interactive application designed for efficient team collaboration on projects and tasks.",
+      "feature": "Key Features",
+      "featureOption": [
+        "Real-time task management.",
+        "Interactive Kanban boards.",
+        "Real-time notifications of updates."
+      ],
+      "role": "I designed the user interface, integrated the backend API, and managed the state with Redux.",
+      "technologies": ["React.js", "Node.js", "MongoDB"],
+      "librariesAndCDN": ["React Router CDN", "Express.js CDN", "Axios CDN"],
+      "modernAnimations": ["Transition animations with React Transition Group"]
+    }
+  },
+  "portfolio-webSite": {
+    "project1": {
+      "title": "Portfolio",
+      "description": "A modern and interactive website designed to showcase your projects, skills, and services, while allowing visitors to easily contact you.",
+      "linkLabel": "View more details",
+      "modalTitle": "Portfolio",
+      "modalDescription": "Explore a showcase of creative projects developed with passion and precision.",
+      "feature": "Key Features",
+      "featureOption": [
+        "Intuitive navigation between site sections.",
+        "Responsive design suitable for all devices.",
+        "Real-time multilingual internationalization."
+      ],
+      "role": "As the lead developer, I designed the user interface, integrated external libraries, and implemented a functional contact form.",
+      "technologies": ["HTML5", "CSS3", "JavaScript"],
+      "librariesAndCDN": [
+        "Font Awesome CDN",
+        "ScrollReveal.js CDN",
+        "Typed.js CDN",
+        "i18next and i18next-http-backend CDN"
+      ],
+      "modernAnimations": [
+        "Scroll animations with ScrollReveal.js",
+        "Animated text effect with Typed.js"
+      ]
+    },
+    "project2": {
+      "title": "Meta Solution",
+      "description": "A web application to manage team projects and tasks.",
+      "linkLabel": "View more details",
+      "modalTitle": "Web Application",
+      "modalDescription": "An interactive application designed for efficient team collaboration on projects and tasks.",
+      "feature": "Key Features",
+      "featureOption": [
+        "Real-time task management.",
+        "Interactive Kanban boards.",
+        "Real-time notifications of updates."
+      ],
+      "role": "I designed the user interface, integrated the backend API, and managed the state with Redux.",
+      "technologies": ["React.js", "Node.js", "MongoDB"],
+      "librariesAndCDN": ["React Router CDN", "Express.js CDN", "Axios CDN"],
+      "modernAnimations": ["Transition animations with React Transition Group"]
+    },
+    "project3": {
+      "title": "Hiking Site",
+      "description": "A web application to manage team projects and tasks.",
+      "linkLabel": "View more details",
+      "modalTitle": "Web Application",
+      "modalDescription": "An interactive application designed for efficient team collaboration on projects and tasks.",
+      "feature": "Key Features",
+      "featureOption": [
+        "Real-time task management.",
+        "Interactive Kanban boards.",
+        "Real-time notifications of updates."
+      ],
+      "role": "I designed the user interface, integrated the backend API, and managed the state with Redux.",
+      "technologies": ["React.js", "Node.js", "MongoDB"],
+      "librariesAndCDN": ["React Router CDN", "Express.js CDN", "Axios CDN"],
+      "modernAnimations": ["Transition animations with React Transition Group"]
+    }
+  },
+  "portfolio-webApp": {
+    "project1": {
+      "title": "Train D",
+      "description": "A web application to manage team projects and tasks.",
+      "linkLabel": "View more details",
+      "modalTitle": "Web Application",
+      "modalDescription": "An interactive application designed for efficient team collaboration on projects and tasks.",
+      "feature": "Key Features",
+      "featureOption": [
+        "Real-time task management.",
+        "Interactive Kanban boards.",
+        "Real-time notifications of updates."
+      ],
+      "role": "I designed the user interface, integrated the backend API, and managed the state with Redux.",
+      "technologies": ["React.js", "Node.js", "MongoDB"],
+      "librariesAndCDN": ["React Router CDN", "Express.js CDN", "Axios CDN"],
+      "modernAnimations": ["Transition animations with React Transition Group"]
+    }
+  },
+  "portfolio-Design": {
+    "project1": {
+      "title": "Meta Solution Design",
+      "description": "A modern and interactive website designed to showcase your projects, skills, and services, while allowing visitors to easily contact you.",
+      "linkLabel": "View more details",
+      "modalTitle": "Portfolio",
+      "modalDescription": "Explore a showcase of creative projects developed with passion and precision.",
+      "feature": "Key Features",
+      "featureOption": [
+        "Intuitive navigation between site sections.",
+        "Responsive design suitable for all devices.",
+        "Real-time multilingual internationalization."
+      ],
+      "role": "As the lead developer, I designed the user interface, integrated external libraries, and implemented a functional contact form.",
+      "technologies": ["HTML5", "CSS3", "JavaScript"],
+      "librariesAndCDN": [
+        "Font Awesome CDN",
+        "ScrollReveal.js CDN",
+        "Typed.js CDN",
+        "i18next and i18next-http-backend CDN"
+      ],
+      "modernAnimations": [
+        "Scroll animations with ScrollReveal.js",
+        "Animated text effect with Typed.js"
+      ]
+    },
+    "project2": {
+      "title": "SCHOOLGATE",
+      "description": "A web application to manage team projects and tasks.",
+      "linkLabel": "View more details",
+      "modalTitle": "Web Application",
+      "modalDescription": "An interactive application designed for efficient team collaboration on projects and tasks.",
+      "feature": "Key Features",
+      "featureOption": [
+        "Real-time task management.",
+        "Interactive Kanban boards.",
+        "Real-time notifications of updates."
+      ],
+      "role": "I designed the user interface, integrated the backend API, and managed the state with Redux.",
+      "technologies": ["React.js", "Node.js", "MongoDB"],
+      "librariesAndCDN": ["React Router CDN", "Express.js CDN", "Axios CDN"],
+      "modernAnimations": ["Transition animations with React Transition Group"]
+    },
+    "project3": {
       "title": "Web Application",
       "description": "A web application to manage team projects and tasks.",
       "linkLabel": "View more details",
@@ -137,9 +358,7 @@
       "role": "I designed the user interface, integrated the backend API, and managed the state with Redux.",
       "technologies": ["React.js", "Node.js", "MongoDB"],
       "librariesAndCDN": ["React Router CDN", "Express.js CDN", "Axios CDN"],
-      "modernAnimations": ["Transition animations with React Transition Group"],
-      "projectLinks": "View the application online",
-      "demoLinks": "View the demo on GitHub"
+      "modernAnimations": ["Transition animations with React Transition Group"]
     }
   },
 

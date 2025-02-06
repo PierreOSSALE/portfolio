@@ -28,7 +28,6 @@ ScrollReveal().reveal(".hero-section .social-icons a i", {
   interval: 200,
 });
 
-
 ScrollReveal().reveal(".btn", {
   delay: 600,
   origin: "top",
@@ -81,7 +80,6 @@ ScrollReveal().reveal(".portfolio-item", {
 ScrollReveal().reveal(".portfolio-content h5", { delay: 300, origin: "left" });
 ScrollReveal().reveal(".portfolio-content p", { delay: 400, origin: "right" });
 ScrollReveal().reveal(".portfolio-link", { delay: 500, origin: "top" });
-console.log(".portfolio-content h5");
 
 // Animations for the "Contact" section
 ScrollReveal().reveal(".contact-info h4, .contact-box", {
@@ -90,7 +88,6 @@ ScrollReveal().reveal(".contact-info h4, .contact-box", {
   interval: 200,
 });
 ScrollReveal().reveal("#contact-form", { delay: 400, origin: "bottom" });
-
 
 // Animations for the "Skills" section
 ScrollReveal().reveal(".skills h2", {

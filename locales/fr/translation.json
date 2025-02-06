@@ -28,6 +28,7 @@
   "DatabaseTechnologies": "MySQL, PostgreSQL, SQL",
   "VersionControl": "Outils de gestion de version :",
   "VersionControlTechnologies": "Git, GitHub",
+
   "experience": {
     "title": "Expérience",
     "freelance": "Mai 2024 - Présent :",
@@ -87,19 +88,28 @@
     }
   },
 
-  "portfolio2": {
+  "portfolioGlobal": {
     "title": "Derniers",
     "titleHighlight": "Projets",
+    "libraries": "Bibliothèques et CDN intégrés",
+    "role": "Rôle dans le projet",
     "website": "Site web",
     "webApp": "Application web",
     "design": "Design graphique",
+    "technologies": "Technologies utilisées",
+    "projectLink": "Lien du projet en ligne",
+    "projectLinks": "Voir le projet en ligne",
+    "demoLink": "Démonstration ",
+    "demoLinks": "Voir la vidéo lors création sur ma chaîne YouTube"
+  },
+  "portfolio-index": {
     "project1": {
       "title": "Portfolio",
       "description": "Un site web moderne et interactif conçu pour mettre en valeur vos projets, compétences et services, tout en permettant aux visiteurs de vous contacter facilement.",
       "linkLabel": "Voir plus de détails",
       "modalTitle": "Portfolio",
       "modalDescription": "Découvrez une vitrine de projets créatifs développés avec passion et précision.",
-      "feature": "Caractéristiques principales",
+      "feature": "Fonctionnalités clés",
       "featureOption": [
         "Navigation intuitive entre les sections du site.",
         "Design responsive adapté à tous les appareils.",
@@ -116,12 +126,10 @@
       "modernAnimations": [
         "Animations de défilement avec ScrollReveal.js",
         "Effet de texte animé avec Typed.js"
-      ],
-      "projectLinks": "Voir le projet en ligne",
-      "demoLinks": "Voir la démo sur ma chaîne YouTube"
+      ]
     },
     "project2": {
-      "title": "Application Web",
+      "title": "Train D",
       "description": "Une application web pour gérer des projets et des tâches en équipe.",
       "linkLabel": "Voir plus de détails",
       "modalTitle": "Application Web",
@@ -137,9 +145,228 @@
       "librariesAndCDN": ["React Router CDN", "Express.js CDN", "Axios CDN"],
       "modernAnimations": [
         "Animations de transition avec React Transition Group"
+      ]
+    },
+    "project3": {
+      "title": "Meta Solution",
+      "description": "Une application web pour gérer des projets et des tâches en équipe.",
+      "linkLabel": "Voir plus de détails",
+      "modalTitle": "Application Web",
+      "modalDescription": "Une application interactive conçue pour une collaboration efficace en équipe sur des projets et des tâches.",
+      "feature": "Caractéristiques principales",
+      "featureOption": [
+        "Gestion des tâches en temps réel.",
+        "Tableaux Kanban interactifs.",
+        "Notifications en temps réel des mises à jour."
       ],
-      "projectLinks": "Voir l'application en ligne",
-      "demoLinks": "Voir la démo sur GitHub"
+      "role": "J'ai conçu l'interface utilisateur, intégré l'API backend et géré l'état avec Redux.",
+      "technologies": ["React.js", "Node.js", "MongoDB"],
+      "librariesAndCDN": ["React Router CDN", "Express.js CDN", "Axios CDN"],
+      "modernAnimations": [
+        "Animations de transition avec React Transition Group"
+      ]
+    },
+    "project4": {
+      "title": "Hiking Site",
+      "description": "Une application web pour gérer des projets et des tâches en équipe.",
+      "linkLabel": "Voir plus de détails",
+      "modalTitle": "Application Web",
+      "modalDescription": "Une application interactive conçue pour une collaboration efficace en équipe sur des projets et des tâches.",
+      "feature": "Caractéristiques principales",
+      "featureOption": [
+        "Gestion des tâches en temps réel.",
+        "Tableaux Kanban interactifs.",
+        "Notifications en temps réel des mises à jour."
+      ],
+      "role": "J'ai conçu l'interface utilisateur, intégré l'API backend et géré l'état avec Redux.",
+      "technologies": ["React.js", "Node.js", "MongoDB"],
+      "librariesAndCDN": ["React Router CDN", "Express.js CDN", "Axios CDN"],
+      "modernAnimations": [
+        "Animations de transition avec React Transition Group"
+      ]
+    },
+    "project5": {
+      "title": "Meta Solution Design",
+      "description": "Une application web pour gérer des projets et des tâches en équipe.",
+      "linkLabel": "Voir plus de détails",
+      "modalTitle": "Application Web",
+      "modalDescription": "Une application interactive conçue pour une collaboration efficace en équipe sur des projets et des tâches.",
+      "feature": "Caractéristiques principales",
+      "featureOption": [
+        "Gestion des tâches en temps réel.",
+        "Tableaux Kanban interactifs.",
+        "Notifications en temps réel des mises à jour."
+      ],
+      "role": "J'ai conçu l'interface utilisateur, intégré l'API backend et géré l'état avec Redux.",
+      "technologies": ["React.js", "Node.js", "MongoDB"],
+      "librariesAndCDN": ["React Router CDN", "Express.js CDN", "Axios CDN"],
+      "modernAnimations": [
+        "Animations de transition avec React Transition Group"
+      ]
+    },
+    "project6": {
+      "title": "SCHOOLGATE",
+      "description": "Une application web pour gérer des projets et des tâches en équipe.",
+      "linkLabel": "Voir plus de détails",
+      "modalTitle": "Application Web",
+      "modalDescription": "Une application interactive conçue pour une collaboration efficace en équipe sur des projets et des tâches.",
+      "feature": "Caractéristiques principales",
+      "featureOption": [
+        "Gestion des tâches en temps réel.",
+        "Tableaux Kanban interactifs.",
+        "Notifications en temps réel des mises à jour."
+      ],
+      "role": "J'ai conçu l'interface utilisateur, intégré l'API backend et géré l'état avec Redux.",
+      "technologies": ["React.js", "Node.js", "MongoDB"],
+      "librariesAndCDN": ["React Router CDN", "Express.js CDN", "Axios CDN"],
+      "modernAnimations": [
+        "Animations de transition avec React Transition Group"
+      ]
+    }
+  },
+  "portfolio-webSite": {
+    "project1": {
+      "title": "Portfolio",
+      "description": "Un site web moderne et interactif conçu pour mettre en valeur vos projets, compétences et services, tout en permettant aux visiteurs de vous contacter facilement.",
+      "linkLabel": "Voir plus de détails",
+      "modalTitle": "Portfolio",
+      "modalDescription": "Découvrez une vitrine de projets créatifs développés avec passion et précision.",
+      "feature": "Fonctionnalités clés",
+      "featureOption": [
+        "Navigation intuitive entre les sections du site.",
+        "Design responsive adapté à tous les appareils.",
+        "Internationalisation multilingue en temps réel."
+      ],
+      "role": "En tant que développeur principal, j'ai conçu l'interface utilisateur, intégré des bibliothèques externes et mis en œuvre un formulaire de contact fonctionnel.",
+      "technologies": ["HTML5", "CSS3", "JavaScript"],
+      "librariesAndCDN": [
+        "Font Awesome CDN",
+        "ScrollReveal.js CDN",
+        "Typed.js CDN",
+        "i18next et i18next-http-backend CDN"
+      ],
+      "modernAnimations": [
+        "Animations de défilement avec ScrollReveal.js",
+        "Effet de texte animé avec Typed.js"
+      ]
+    },
+    "project2": {
+      "title": "Meta Solution",
+      "description": "Une application web pour gérer des projets et des tâches en équipe.",
+      "linkLabel": "Voir plus de détails",
+      "modalTitle": "Application Web",
+      "modalDescription": "Une application interactive conçue pour une collaboration efficace en équipe sur des projets et des tâches.",
+      "feature": "Caractéristiques principales",
+      "featureOption": [
+        "Gestion des tâches en temps réel.",
+        "Tableaux Kanban interactifs.",
+        "Notifications en temps réel des mises à jour."
+      ],
+      "role": "J'ai conçu l'interface utilisateur, intégré l'API backend et géré l'état avec Redux.",
+      "technologies": ["React.js", "Node.js", "MongoDB"],
+      "librariesAndCDN": ["React Router CDN", "Express.js CDN", "Axios CDN"],
+      "modernAnimations": [
+        "Animations de transition avec React Transition Group"
+      ]
+    },
+    "project3": {
+      "title": "Hiking Site",
+      "description": "Une application web pour gérer des projets et des tâches en équipe.",
+      "linkLabel": "Voir plus de détails",
+      "modalTitle": "Application Web",
+      "modalDescription": "Une application interactive conçue pour une collaboration efficace en équipe sur des projets et des tâches.",
+      "feature": "Caractéristiques principales",
+      "featureOption": [
+        "Gestion des tâches en temps réel.",
+        "Tableaux Kanban interactifs.",
+        "Notifications en temps réel des mises à jour."
+      ],
+      "role": "J'ai conçu l'interface utilisateur, intégré l'API backend et géré l'état avec Redux.",
+      "technologies": ["React.js", "Node.js", "MongoDB"],
+      "librariesAndCDN": ["React Router CDN", "Express.js CDN", "Axios CDN"],
+      "modernAnimations": [
+        "Animations de transition avec React Transition Group"
+      ]
+    }
+  },
+  "portfolio-webApp": {
+    "project1": {
+      "title": "Train D",
+      "description": "Une application web pour gérer des projets et des tâches en équipe.",
+      "linkLabel": "Voir plus de détails",
+      "modalTitle": "Application Web",
+      "modalDescription": "Une application interactive conçue pour une collaboration efficace en équipe sur des projets et des tâches.",
+      "feature": "Caractéristiques principales",
+      "featureOption": [
+        "Gestion des tâches en temps réel.",
+        "Tableaux Kanban interactifs.",
+        "Notifications en temps réel des mises à jour."
+      ],
+      "role": "J'ai conçu l'interface utilisateur, intégré l'API backend et géré l'état avec Redux.",
+      "technologies": ["React.js", "Node.js", "MongoDB"],
+      "librariesAndCDN": ["React Router CDN", "Express.js CDN", "Axios CDN"],
+      "modernAnimations": [
+        "Animations de transition avec React Transition Group"
+      ]
+    }
+  },
+  "portfolio-Design": {
+    "project1": {
+      "title": "Meta Solution Design",
+      "description": "Une application web pour gérer des projets et des tâches en équipe.",
+      "linkLabel": "Voir plus de détails",
+      "modalTitle": "Application Web",
+      "modalDescription": "Une application interactive conçue pour une collaboration efficace en équipe sur des projets et des tâches.",
+      "feature": "Caractéristiques principales",
+      "featureOption": [
+        "Gestion des tâches en temps réel.",
+        "Tableaux Kanban interactifs.",
+        "Notifications en temps réel des mises à jour."
+      ],
+      "role": "J'ai conçu l'interface utilisateur, intégré l'API backend et géré l'état avec Redux.",
+      "technologies": ["React.js", "Node.js", "MongoDB"],
+      "librariesAndCDN": ["React Router CDN", "Express.js CDN", "Axios CDN"],
+      "modernAnimations": [
+        "Animations de transition avec React Transition Group"
+      ]
+    },
+    "project2": {
+      "title": "SCHOOLGATE",
+      "description": "Une application web pour gérer des projets et des tâches en équipe.",
+      "linkLabel": "Voir plus de détails",
+      "modalTitle": "Application Web",
+      "modalDescription": "Une application interactive conçue pour une collaboration efficace en équipe sur des projets et des tâches.",
+      "feature": "Caractéristiques principales",
+      "featureOption": [
+        "Gestion des tâches en temps réel.",
+        "Tableaux Kanban interactifs.",
+        "Notifications en temps réel des mises à jour."
+      ],
+      "role": "J'ai conçu l'interface utilisateur, intégré l'API backend et géré l'état avec Redux.",
+      "technologies": ["React.js", "Node.js", "MongoDB"],
+      "librariesAndCDN": ["React Router CDN", "Express.js CDN", "Axios CDN"],
+      "modernAnimations": [
+        "Animations de transition avec React Transition Group"
+      ]
+    },
+    "project3": {
+      "title": "SCHOOLGATE",
+      "description": "Une application web pour gérer des projets et des tâches en équipe.",
+      "linkLabel": "Voir plus de détails",
+      "modalTitle": "Application Web",
+      "modalDescription": "Une application interactive conçue pour une collaboration efficace en équipe sur des projets et des tâches.",
+      "feature": "Caractéristiques principales",
+      "featureOption": [
+        "Gestion des tâches en temps réel.",
+        "Tableaux Kanban interactifs.",
+        "Notifications en temps réel des mises à jour."
+      ],
+      "role": "J'ai conçu l'interface utilisateur, intégré l'API backend et géré l'état avec Redux.",
+      "technologies": ["React.js", "Node.js", "MongoDB"],
+      "librariesAndCDN": ["React Router CDN", "Express.js CDN", "Axios CDN"],
+      "modernAnimations": [
+        "Animations de transition avec React Transition Group"
+      ]
     }
   },
 

@@ -1,13 +1,13 @@
 [
   {
     "id": 1,
-    "title": "Web Application",
+    "title": "Train D",
     "image": "../assets/Images/pj-9.png",
     "description": "A web application to manage team projects and tasks.",
     "technologies": ["React.js", "Node.js", "MongoDB"],
     "librariesAndCDN": ["React Router CDN", "Express.js CDN", "Axios CDN"],
     "modernAnimations": ["Transition animations with React Transition Group"],
-    "features": [
+    "featureOption": [
       "Real-time task management.",
       "Interactive Kanban boards.",
       "Real-time notifications of updates."
@@ -15,14 +15,12 @@
     "role": "I designed the user interface, integrated the backend API, and managed the state with Redux.",
     "projectLinks": [
       {
-        "text": "View the application online",
-        "url": "http://127.0.0.1:52542/TrainD/index.html"
+        "url": "https://train-d.vercel.app/"
       }
     ],
     "demoLinks": [
       {
-        "text": "View the demo on GitHub",
-        "url": "https://github.com"
+        "url": "https://www.youtube.com/@PeterWebDev"
       }
     ]
   }

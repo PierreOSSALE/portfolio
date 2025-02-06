@@ -15,7 +15,7 @@
       "Scroll animations with ScrollReveal.js",
       "Animated text effect with Typed.js"
     ],
-    "features": [
+    "featureOption": [
       "Intuitive navigation between sections.",
       "Responsive design suitable for all devices.",
       "Real-time multilingual internationalization."
@@ -23,26 +23,24 @@
     "role": "As the lead developer, I designed the user interface, integrated external libraries, and implemented a functional contact form.",
     "projectLinks": [
       {
-        "text": "View the project online",
-        "url": "http://127.0.0.1:5500/PORTFOLIO/index.html"
+        "url": "https://simonossale.vercel.app/"
       }
     ],
     "demoLinks": [
       {
-        "text": "View the demo on my YouTube channel",
-        "url": "https://youtube.com"
+        "url": "https://www.youtube.com/@PeterWebDev"
       }
     ]
   },
   {
     "id": 2,
-    "title": "Web Application",
+    "title": "Train D",
     "image": "./assets/Images/pj-9.png",
     "description": "A web application to manage team projects and tasks.",
     "technologies": ["React.js", "Node.js", "MongoDB"],
     "librariesAndCDN": ["React Router CDN", "Express.js CDN", "Axios CDN"],
     "modernAnimations": ["Transition animations with React Transition Group"],
-    "features": [
+    "featureOption": [
       "Real-time task management.",
       "Interactive Kanban boards.",
       "Real-time notifications of updates."
@@ -50,26 +48,24 @@
     "role": "I designed the user interface, integrated the backend API, and managed the state with Redux.",
     "projectLinks": [
       {
-        "text": "View the application online",
-        "url": "http://127.0.0.1:5500/TrainD/index.html"
+        "url": "https://train-d.vercel.app/"
       }
     ],
     "demoLinks": [
       {
-        "text": "View the demo on GitHub",
-        "url": "https://github.com"
+        "url": "https://www.youtube.com/@PeterWebDev"
       }
     ]
   },
   {
     "id": 3,
-    "title": "Web Application",
+    "title": "Meta Solution",
     "image": "./assets/Images/pj-4.png",
     "description": "A web application to manage team projects and tasks.",
     "technologies": ["React.js", "Node.js", "MongoDB"],
     "librariesAndCDN": ["React Router CDN", "Express.js CDN", "Axios CDN"],
     "modernAnimations": ["Transition animations with React Transition Group"],
-    "features": [
+    "featureOption": [
       "Real-time task management.",
       "Interactive Kanban boards.",
       "Real-time notifications of updates."
@@ -77,26 +73,24 @@
     "role": "I designed the user interface, integrated the backend API, and managed the state with Redux.",
     "projectLinks": [
       {
-        "text": "View the application online",
-        "url": "http://127.0.0.1:5500/PROJECTS/app.html"
+        "url": "https://meta-solution.vercel.app/"
       }
     ],
     "demoLinks": [
       {
-        "text": "View the demo on GitHub",
-        "url": "https://github.com"
+        "url": "https://www.youtube.com/@PeterWebDev"
       }
     ]
   },
   {
     "id": 4,
-    "title": "Web Application",
+    "title": "Hiking Site",
     "image": "./assets/Images/pj-2.png",
     "description": "A web application to manage team projects and tasks.",
     "technologies": ["React.js", "Node.js", "MongoDB"],
     "librariesAndCDN": ["React Router CDN", "Express.js CDN", "Axios CDN"],
     "modernAnimations": ["Transition animations with React Transition Group"],
-    "features": [
+    "featureOption": [
       "Real-time task management.",
       "Interactive Kanban boards.",
       "Real-time notifications of updates."
@@ -104,26 +98,24 @@
     "role": "I designed the user interface, integrated the backend API, and managed the state with Redux.",
     "projectLinks": [
       {
-        "text": "View the application online",
-        "url": "http://127.0.0.1:5500/PROJECTS/app.html"
+        "url": "https://hiking-site-eight.vercel.app/"
       }
     ],
     "demoLinks": [
       {
-        "text": "View the demo on GitHub",
-        "url": "https://github.com"
+        "url": "https://www.youtube.com/@PeterWebDev"
       }
     ]
   },
   {
     "id": 5,
-    "title": "Web Application",
-    "image": "./assets/Images/pj-6.png",
+    "title": "Meta Solution Design ",
+    "image": "./assets/Images/pj-11.png",
     "description": "A web application to manage team projects and tasks.",
     "technologies": ["React.js", "Node.js", "MongoDB"],
     "librariesAndCDN": ["React Router CDN", "Express.js CDN", "Axios CDN"],
     "modernAnimations": ["Transition animations with React Transition Group"],
-    "features": [
+    "featureOption": [
       "Real-time task management.",
       "Interactive Kanban boards.",
       "Real-time notifications of updates."
@@ -131,26 +123,24 @@
     "role": "I designed the user interface, integrated the backend API, and managed the state with Redux.",
     "projectLinks": [
       {
-        "text": "View the application online",
-        "url": "http://127.0.0.1:5500/PROJECTS/app.html"
+        "url": "https://www.canva.com/design/DAFgffgQS7I/k6QKChyAdrtDkJ0HJfs9MA/view"
       }
     ],
     "demoLinks": [
       {
-        "text": "View the demo on GitHub",
-        "url": "https://github.com"
+        "url": "https://www.youtube.com/@PeterWebDev"
       }
     ]
   },
   {
     "id": 6,
-    "title": "Web Application",
+    "title": "SCHOOLGATE",
     "image": "./assets/Images/pj-7.png",
     "description": "A web application to manage team projects and tasks.",
     "technologies": ["React.js", "Node.js", "MongoDB"],
     "librariesAndCDN": ["React Router CDN", "Express.js CDN", "Axios CDN"],
     "modernAnimations": ["Transition animations with React Transition Group"],
-    "features": [
+    "featureOption": [
       "Real-time task management.",
       "Interactive Kanban boards.",
       "Real-time notifications of updates."
@@ -158,14 +148,12 @@
     "role": "I designed the user interface, integrated the backend API, and managed the state with Redux.",
     "projectLinks": [
       {
-        "text": "View the application online",
-        "url": "http://127.0.0.1:5500/PROJECTS/app.html"
+        "url": "https://www.figma.com/design/694oTTu4xmD49WbjJZsoZo/Untitled?node-id=0-1&t=i9P4ad87CDAxH8JC-1"
       }
     ],
     "demoLinks": [
       {
-        "text": "View the demo on GitHub",
-        "url": "https://github.com"
+        "url": "https://www.youtube.com/@PeterWebDev"
       }
     ]
   }

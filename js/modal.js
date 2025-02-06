@@ -1,3 +1,4 @@
+//modal.js
 // Generic function to handle modals
 function initModal(
   modalContainerSelector,
