@@ -118,10 +118,13 @@
       "role": "En tant que développeur principal, j'ai conçu l'interface utilisateur, intégré des bibliothèques externes et mis en œuvre un formulaire de contact fonctionnel.",
       "technologies": ["HTML5", "CSS3", "JavaScript"],
       "librariesAndCDN": [
-        "Font Awesome CDN",
-        "ScrollReveal.js CDN",
-        "Typed.js CDN",
-        "i18next et i18next-http-backend CDN"
+        "Font Awesome : Utilisé pour intégrer une collection d'icônes vectorielles personnalisables, enrichissant visuellement l’interface et guidant les utilisateurs dans leurs interactions avec le site.",
+        "Google Fonts : Utilisé pour importer des polices de caractères modernes et harmonieuses, garantissant une lisibilité optimale et une identité visuelle cohérente sur l'ensemble du site.",
+        "ScrollReveal : Utilisé pour ajouter des animations lors du défilement, dynamisant l’apparition des éléments à l’écran et rendant l’expérience de navigation plus engageante.",
+        "Typed : Utilisé pour implémenter un effet de machine à écrire dans la présentation des textes, attirant l’attention des visiteurs et apportant une touche interactive au site.",
+        "i18next : Utilisé pour gérer l’internationalisation de l’application, permettant de proposer le contenu en plusieurs langues et d’atteindre un public plus large.",
+        "i18next-http-backend : Utilisé pour charger dynamiquement les fichiers de traduction depuis le serveur, facilitant la gestion et la mise à jour des contenus multilingues.",
+        "Axios : Utilisé pour effectuer des requêtes HTTP de manière simple et efficace, permettant de récupérer et manipuler des données (comme des fichiers JSON) de façon asynchrone et sécurisée."
       ],
       "modernAnimations": [
         "Animations de défilement avec ScrollReveal.js",
@@ -240,10 +243,13 @@
       "role": "En tant que développeur principal, j'ai conçu l'interface utilisateur, intégré des bibliothèques externes et mis en œuvre un formulaire de contact fonctionnel.",
       "technologies": ["HTML5", "CSS3", "JavaScript"],
       "librariesAndCDN": [
-        "Font Awesome CDN",
-        "ScrollReveal.js CDN",
-        "Typed.js CDN",
-        "i18next et i18next-http-backend CDN"
+        "Font Awesome : Utilisé pour intégrer une collection d'icônes vectorielles personnalisables, enrichissant visuellement l’interface et guidant les utilisateurs dans leurs interactions avec le site.",
+        "Google Fonts : Utilisé pour importer des polices de caractères modernes et harmonieuses, garantissant une lisibilité optimale et une identité visuelle cohérente sur l'ensemble du site.",
+        "ScrollReveal : Utilisé pour ajouter des animations lors du défilement, dynamisant l’apparition des éléments à l’écran et rendant l’expérience de navigation plus engageante.",
+        "Typed : Utilisé pour implémenter un effet de machine à écrire dans la présentation des textes, attirant l’attention des visiteurs et apportant une touche interactive au site.",
+        "i18next : Utilisé pour gérer l’internationalisation de l’application, permettant de proposer le contenu en plusieurs langues et d’atteindre un public plus large.",
+        "i18next-http-backend : Utilisé pour charger dynamiquement les fichiers de traduction depuis le serveur, facilitant la gestion et la mise à jour des contenus multilingues.",
+        "Axios : Utilisé pour effectuer des requêtes HTTP de manière simple et efficace, permettant de récupérer et manipuler des données (comme des fichiers JSON) de façon asynchrone et sécurisée."
       ],
       "modernAnimations": [
         "Animations de défilement avec ScrollReveal.js",

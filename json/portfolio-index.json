@@ -6,10 +6,13 @@
     "description": "A modern and interactive website designed to showcase your projects, skills, and services while allowing visitors to easily contact you.",
     "technologies": ["HTML5", "CSS3", "JavaScript"],
     "librariesAndCDN": [
-      "Font Awesome CDN",
-      "ScrollReveal.js CDN",
-      "Typed.js CDN",
-      "i18next and i18next-http-backend CDN"
+      "Font Awesome: Used to integrate a collection of customizable vector icons, visually enriching the interface and guiding users in their interactions with the site.",
+      "Google Fonts: Used to import modern and harmonious typefaces, ensuring optimal readability and a consistent visual identity across the entire site.",
+      "ScrollReveal: Used to add scroll-triggered animations, enhancing the appearance of elements on the screen and making the browsing experience more engaging.",
+      "Typed: Used to implement a typewriter effect in text presentations, capturing visitors' attention and adding an interactive touch to the site.",
+      "i18next: Used to manage the internationalization of the application, allowing content to be offered in multiple languages and reaching a wider audience.",
+      "i18next-http-backend: Used to dynamically load translation files from the server, facilitating the management and updating of multilingual content.",
+      "Axios: Used to make HTTP requests in a simple and efficient manner, allowing data (such as JSON files) to be fetched and manipulated asynchronously and securely."
     ],
     "modernAnimations": [
       "Scroll animations with ScrollReveal.js",
