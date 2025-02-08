@@ -105,8 +105,7 @@
   "portfolio-index": {
     "project1": {
       "title": "Portfolio",
-      "description": "Un site web moderne et interactif conçu pour mettre en valeur vos projets, compétences et services, tout en permettant aux visiteurs de vous contacter facilement.",
-      "linkLabel": "Voir plus de détails",
+      "description": "Site web personnel conçu pour mettre en valeur les projets, compétences et services, tout en permettant aux visiteurs de vous contacter facilement.",
       "modalTitle": "Portfolio",
       "modalDescription": "Découvrez une vitrine de projets créatifs développés avec passion et précision.",
       "feature": "Fonctionnalités clés",
@@ -125,10 +124,6 @@
         "i18next : Utilisé pour gérer l’internationalisation de l’application, permettant de proposer le contenu en plusieurs langues et d’atteindre un public plus large.",
         "i18next-http-backend : Utilisé pour charger dynamiquement les fichiers de traduction depuis le serveur, facilitant la gestion et la mise à jour des contenus multilingues.",
         "Axios : Utilisé pour effectuer des requêtes HTTP de manière simple et efficace, permettant de récupérer et manipuler des données (comme des fichiers JSON) de façon asynchrone et sécurisée."
-      ],
-      "modernAnimations": [
-        "Animations de défilement avec ScrollReveal.js",
-        "Effet de texte animé avec Typed.js"
       ]
     },
     "project2": {
